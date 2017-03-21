@@ -1,0 +1,482 @@
+% This is "sig-alternate.tex" V2.1 April 2013
+% This file should be compiled with V2.5 of "sig-alternate.cls" May 2012
+%
+% This example file demonstrates the use of the 'sig-alternate.cls'
+% V2.5 LaTeX2e document class file. It is for those submitting
+% articles to ACM Conference Proceedings WHO DO NOT WISH TO
+% STRICTLY ADHERE TO THE SIGS (PUBS-BOARD-ENDORSED) STYLE.
+% The 'sig-alternate.cls' file will produce a similar-looking,
+% albeit, 'tighter' paper resulting in, invariably, fewer pages.
+%
+% ----------------------------------------------------------------------------------------------------------------
+% This .tex file (and associated .cls V2.5) produces:
+%       1) The Permission Statement
+%       2) The Conference (location) Info information
+%       3) The Copyright Line with ACM data
+%       4) NO page numbers
+%
+% as against the acm_proc_article-sp.cls file which
+% DOES NOT produce 1) thru' 3) above.
+%
+% Using 'sig-alternate.cls' you have control, however, from within
+% the source .tex file, over both the CopyrightYear
+% (defaulted to 200X) and the ACM Copyright Data
+% (defaulted to X-XXXXX-XX-X/XX/XX).
+% e.g.
+% \CopyrightYear{2007} will cause 2007 to appear in the copyright line.
+% \crdata{0-12345-67-8/90/12} will cause 0-12345-67-8/90/12 to appear in the copyright line.
+%
+% ---------------------------------------------------------------------------------------------------------------
+% This .tex source is an example which *does* use
+% the .bib file (from which the .bbl file % is produced).
+% REMEMBER HOWEVER: After having produced the .bbl file,
+% and prior to final submission, you *NEED* to 'insert'
+% your .bbl file into your source .tex file so as to provide
+% ONE 'self-contained' source file.
+%
+% ================= IF YOU HAVE QUESTIONS =======================
+% Questions regarding the SIGS styles, SIGS policies and
+% procedures, Conferences etc. should be sent to
+% Adrienne Griscti (griscti@acm.org)
+%
+% Technical questions _only_ to
+% Gerald Murray (murray@hq.acm.org)
+% ===============================================================
+%
+% For tracking purposes - this is V2.0 - May 2012
+
+\documentclass{sig-alternate}
+\usepackage{epstopdf}
+\usepackage[utf8]{inputenc}
+
+\begin{document}
+
+% Copyright
+%\setcopyright{acmcopyright}
+%\setcopyright{acmlicensed}
+%\setcopyright{rightsretained}
+%\setcopyright{usgov}
+%\setcopyright{usgovmixed}
+%\setcopyright{cagov}
+%\setcopyright{cagovmixed}
+
+% ISBN
+%\isbn{978-85-7669-333-8}
+
+%Conference
+%\conferenceinfo{WebMedia'2016}{November 8--11, 2016, Teresina, PI, Brazil}
+
+%
+% --- Author Metadata here ---
+%\conferenceinfo{WebMedia}{'2016 Teresina, PI Brazil}
+%\CopyrightYear{2007} % Allows default copyright year (20XX) to be over-ridden - IF NEED BE.
+%\crdata{0-12345-67-8/90/01}  % Allows default copyright data (0-89791-88-6/97/05) to be over-ridden - IF NEED BE.
+% --- End of Author Metadata ---
+
+\title{ExCAM - Uma metodologia Crowdsourcing para a autoria de conteúdo extra para vídeos}
+% \subtitle{[Extended Abstract]
+%\titlenote{A full version of this paper is available as
+%\textit{Author's Guide to Preparing ACM SIG Proceedings Using
+%\LaTeX$2_\epsilon$\ and BibTeX} at
+% \texttt{www.acm.org/eaddress.htm}}}
+%
+% You need the command \numberofauthors to handle the 'placement
+% and alignment' of the authors beneath the title.
+%
+% For aesthetic reasons, we recommend 'three authors at a time'
+% i.e. three 'name/affiliation blocks' be placed beneath the title.
+%
+% NOTE: You are NOT restricted in how many 'rows' of
+% "name/affiliations" may appear. We just ask that you restrict
+% the number of 'columns' to three.
+%
+% Because of the available 'opening page real-estate'
+% we ask you to refrain from putting more than six authors
+% (two rows with three columns) beneath the article title.
+% More than six makes the first-page appear very cluttered indeed.
+%
+% Use the \alignauthor commands to handle the names
+% and affiliations for an 'aesthetic maximum' of six authors.
+% Add names, affiliations, addresses for
+% the seventh etc. author(s) as the argument for the
+% \additionalauthors command.
+% These 'additional authors' will be output/set for you
+% without further effort on your part as the last section in
+% the body of your article BEFORE References or any Appendices.
+
+\numberofauthors{3} %  in this sample file, there are a *total*
+% of EIGHT authors. SIX appear on the 'first-page' (for formatting
+% reasons) and the remaining two appear in the \additionalauthors section.
+%
+\author{
+% You can go ahead and credit any number of authors here,
+% e.g. one 'row of three' or two rows (consisting of one row of three
+% and a second row of one, two or three).
+%
+% The command \alignauthor (no curly braces needed) should
+% precede each author name, affiliation/snail-mail address and
+% e-mail address. Additionally, tag each line of
+% affiliation/address with \affaddr, and tag the
+% e-mail address with \email.
+%
+% 1st. author
+\alignauthor
+Marcello Novaes de Amorim\\
+       \affaddr{Universidade Federal do Espírito Santo}\\
+       \affaddr{Av. Fernando Ferrari, 514 - Goiabeiras, 29075-910}\\
+       \affaddr{Vitória-ES, Brasil}\\
+       \email{novaes@inf.ufes.br}
+% 2nd. author
+\alignauthor
+Celso Alberto Saibel Santos\\
+       \affaddr{Universidade Federal do Espírito Santo}\\
+       \affaddr{Av. Fernando Ferrari, 514 - Goiabeiras, 29075-910}\\
+       \affaddr{Vitória-ES, Brasil}\\
+       \email{saibel@inf.ufes.br}
+% 3nd. author
+\alignauthor
+Orivaldo de Lira Tavares\\
+       \affaddr{Universidade Federal do Espírito Santo}\\
+       \affaddr{Av. Fernando Ferrari, 514 - Goiabeiras, 29075-910}\\
+       \affaddr{Vitória-ES, Brasil}\\
+       \email{tavares@inf.ufes.br}
+}
+% There's nothing stopping you putting the seventh, eighth, etc.
+% author on the opening page (as the 'third row') but we ask,
+% for aesthetic reasons that you place these 'additional authors'
+% in the \additional authors block, viz.
+\additionalauthors{Additional authors: John Smith (The Th{\o}rv{\"a}ld Group,
+email: {\texttt{jsmith@affiliation.org}}) and Julius P.~Kumquat
+(The Kumquat Consortium, email: {\texttt{jpkumquat@consortium.net}}).}
+\date{30 July 1999}
+% Just remember to make sure that the TOTAL number of authors
+% is the number that will appear on the first page PLUS the
+% number that will appear in the \additionalauthors section.
+
+\maketitle
+\begin{abstract}
+This doctoral thesis aims to propose a methodology for authoring of extra content that can
+be embedded in videos, or presented synchronously with them. The methodology will be based
+on Human Computation and Crowdsourcing, using Production Templates to design the required
+tasks and activities, and to select the adequate authoring tools according to the characteristics of the
+final outcome. It will also be developed a supportive environment for the extra content
+production process that will ensure that the methodology is followed, allowing the authors
+to focus exclusively on the activities that really demand human intelligence. In this
+environment, will be available a set of authoring tools that can be used, and further
+modified if necessary. In addition, a classification proposal will be presented to aid the authoring process of
+extra content for videos, according to three dimensions: Purpose, Nature and Type. Based
+on these characteristics the production models will be designed, and will be created a
+template library that can be used to configure the supporting environment and the very
+process of authorship. The proposal methodology will be called ExCAM (Extra Content
+Authoring Methodology) and the supportive environment will be called ExCAME (Extra Content
+Authoring Methodology Environment).
+\end{abstract}
+
+\keywords{Crowdsourcing, Computer supported cooperative work, Multimedia content creation, Human-centered computing}
+
+
+\section{Caracterização do Problema}
+
+\par O vídeo é um tipo de mídia altamente expressiva, capaz de transmitir grandes cargas semânticas ao apresentar, de maneira coerente, diferentes componentes audiovisuais. A combinação destes componentes, seja codificados em um único artefato ou por meio de uma aplicação multimídia, é um exemplo típico de como uma composição coerente de recursos pode resultar em algo maior do que o seu simples somatório. Todavia, ainda é possível potencializar a eficácia dos vídeos, seja adicionando recursos que preencham lacunas semânticas presentes nele ou que agreguem informação adicional, seja substituindo alguns de seus componentes por outros mais adequados ao público alvo.
+
+Esta abordagem já é utilizada com diversas finalidades, desde tornar os vídeos acessíveis a públicos que tenham necessidades específicas até ajudar o receptor a entender a informação transmitida, com a inserção de figuras, textos quadros multimídia. De fato, a mídia vídeo torna-se o elemento central de uma aplicação multimídia que agrega componentes para ampliar a semântica da informação transmitida pelo vídeo.
+
+Define-se Conteúdo Extra, neste projeto, como um ou mais artefatos que podem ser codificados juntamente com um vídeo, ou apresentados de maneira coerente com ele por meio de uma aplicação multimídia. Alguns exemplos destes artefatos são legendas textuais, animações para língua de sinais, figuras e quadros informativos, caixas de texto, audios adicionais (ex: narração, audiodescrição), e até mesmo outros vídeos que podem sem inseridos em regiões delimitadas do vídeo original.
+
+Apesar de cada vez mais comum, o processo de autoria deste Conteúdo Extra ainda não conta com uma metodologia que possa ser aplicada em qualquer cenário, e isso faz com que a produção deste tipo de conteúdo ainda seja uma tarefa nebulosa e complicada para boa parte dos potenciais autores. Existem empresas, como estúdios e emissoras de TV, que possuem processos próprios de produção de conteúdo extra, porém os pequenos grupos e os autores individuais ainda utilizam processos empíricos e não padronizados, como é o caso dos grupos que produzem, de forma voluntária, legendas para vídeos na internet.
+
+Esta dificuldade ganha importância na medida em que a produção de vídeos gerados por usuários aumenta, e sua distribuição se torna cada vez mais rápida por conta das redes sociais e diversos serviços disponíveis na Web \cite{Fontanini2016}. As empresas voltadas à comunicação de massa, na qual os usuários são anônimos, dificilmente se interessariam em produzir conteúdo extra para estes vídeos. Por outro lado, existe uma enorme quantidade de internautas que poderiam gerar este conteúdo caso possuissem meios para gerar este conteúdo de forma simples, prática e organizada.
+
+Um ambiente de autoria que conduza os autores pelo processo de produção, fazendo com que eles possam se concentrar apenas nas atividades que realmente necessitem de inteligência humana, também é algo que se acredita ser capaz de motivar a autoria de conteúdo extra. Para isto, este ambiente deve fornecer todas as ferramentas necessárias para o processo de autoria.
+
+Existe um outro problema que desestimula os usuários a iniciar um processo de autoria deste tipo de conteúdo: muitas vezes, produzir este material é uma tarefa muito grande e complicada para que seja feita por apenas uma pessoa, e mesmo por um grupo pequeno de pessoas. 
+
+Desta forma, definiu-se que a metodologia proposta deve dar suporte à autoria colaborativa, suportando inclusive colaboração em escala massiva\cite{TEDMassive} com uma abordagem Crowdsourcing (CS).
+
+Baseado no cenário descrito, definiu-se que o objetivo deste trabalho é propor uma metodologia para a autoria de conteúdo extra para vídeos, que suporte uma abordagem colaborativa em escala massiva, e que seja apoiada por um ambiente computacional a ser construido no decorrer deste projeto. A metodologia proposta será chamada de ExCAM (Extra Content Authoring Methodology) e o ambiente de apoio será chamado de ExCAME (Extra Content Authoring Methodology Environment).
+
+\section{Fundamentação Teórica e Estado da Arte}
+
+Com o objetivo de entende como se poderia obter os resultados esperados, foi realizada uma pesquisa sobre as bases teóricas da autoria colaborativa, assim como sobre do processo de produção de vídeos. Adicionalmente foi realizada uma pesquisa sobre os ambientes e processos colaborativos, sobre  as metodologias para a autoria conteúdo extra para vídeos, e sobre as característivas do próprio conteúdo extra.  A partir destas pesquisas foi determinado um ponto de partida para a o desenvolvimento da ExCAM, assim como um caminho para para se chegar até ela.
+
+Kirk\cite{Kirk:2007} e Guimarães\cite{22334} explicam em seus trabalhos sobre os processos de criação de vídeos e de autoria multimídia. Kirk, descreve cada uma das etapas do ciclo de vida de um vídeo dentro do experimento realizado\cite{Kirk:2007}.
+
+\begin{itemize}
+\item \textbf{Pré-Captura:}  definição e preparação dos dispositivos de captura.
+\item \textbf{Captura:} captura das imagens, edição no dispositivo de captura, e transferencia do vídeo a partir do dispositivo de captura. 
+\item \textbf{Pós-Captura:} digitalização, conversão, edição, backup etc.
+\item \textbf{Uso Final:} exibição e compartilhamento do vídeo gerado.
+\end{itemize}
+
+
+Complementarmente, Guimarães\cite{22334} define quatro estágios para a autoria multimídia sobre vídeos.
+
+\begin{itemize}
+\item \textbf{Captura e Processamento:} se refere aos estágios de Pré-Captura, Captura e Pós-Captura descritos por Kirk\cite{Kirk:2007}.
+\item \textbf{Acesso e Navegação:} adicionar busca e seleção de conteúdo. 
+\item \textbf{Criação e Produção:} é um processo incremental de refinamento de conteúdo, que envolve compartilhamento e anotação.
+\item \textbf{Enriquecimento de Conteúdo:} agregação das interações dos usuários sobre o conteúdo gerado.
+\end{itemize}
+
+
+J. Villena \cite{Villena2016} apresentou, no inicio de 2016, uma metodologia denominada Vide4All, voltada para a autoria de conteúdo extra dentro de um processo de produção de vídeo acessível. Todavia, ela concluiu ao longo do trabalho que esta metodologia também poderia ser utilizada para a produção de conteúdo para diferentes propósitos além da acessibilidade. 
+
+A metodologia Video4All é baseada no processo de produção de vídeo descrito por Kirk\cite{Kirk:2007} e no processo de autoria multimídia sobre vídeos descrito por Guimarães\cite{22334}, todavia, Villena  considerou mais adequado enxergar o proceso de produção de vídeos enriquecidos com conteúdo multimídia  em 4 estágios: Pré-Produção, Produção, Pós-Produção, e Distribuição, como pode ser observado na Figura \ref{fig0001}. A Video4All é aplicada especificamente na fase de Pós-Edição. 
+
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[scale=0.32]{figure/fig0001}
+\caption{Processo de produção de vídeo acessível com a metodologia Video4All\cite{Villena2016}.}
+\label{fig0001}
+\end{figure}
+
+Villena \cite{Villena2016} também analisou as caracteristicas de acessibilidade dos players de vídeos mais utilizados atualmente, mapeando os recursos que estão disponíveis e que devem ser considerados durante a elaboração do conteúdo acessível, conforme pode ser visto na Figura \ref{quadro}.
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[scale=0.32]{figure/quadro}
+\caption{Mapeamento dos recursos de acessibilidade dos players de vídeo realizado por J. Villena\cite{Villena2016}.}
+\label{quadro}
+\end{figure}
+
+
+Luis von Ahn apresentou, em 2005, o Human Computation (HC) \cite{VonAhn:2005:HC:1168246}, que se refere aos cenários nos quais parte das atividades podem ser automatizadas, enquanto outras necessitam de inteligência humana. Neste contexto, uma tarefa que inerentemente requer inteligência humana para sua execução é chamada de Human Intelligent Tasks (HIT) \cite{Mo:2013:OPH:2505515.2505755}.
+
+ 
+
+Crowdsourcing é uma abordagem que consiste em utilizar o poder de processamento de uma multidão (crowd) de colaboradores \cite{Howe2006}, e usualmente utiliza a estratégia de dividir as HITs em microtarefas (microtasks), pequenas e simples o suficiente para serem realizadas de forma rápida e independente por qualquer usuário da crowd \cite{Difallah:2015:DMC:2736277.2741685}. Distribuir o processamento de cada HIT entre os colaboradores permite um melhor aproveitando potencial de processamento da crowd.
+
+
+Um desafio da utilização deste tipo de abordagem Crowdsourcing é modelar corretamente o problema sob o ponto de vista da Human Computation, ou seja, identificar, delimitar e definir corretamente as HITs é um passo importante para que o CS possa ser aplicado com sucesso nestes casos.
+
+
+Outra questão que também precisa ser tratada é a gerência das atividades Crowdsourcing, assim como a gerência dos colaboradores. Existem ambientes consagrados que são capazes de realizar estas atividades, como é o caso do Amazon Mechanical Turk \cite{Difallah:2015:DMC:2736277.2741685}. Porém, a fim de disponibilizar um sistema completo de apoio para o processo de autoria, serão implementadas no ExCAME as funcionalidades necessárias para gerenciar as atividades de CS que serão previstos na metodologia.
+
+
+O modelo Crowdsourcing, entre outras coisas, permite que se trabalhe com grupos grandes e heterogêneos de colaboradores, o que favorece a ocorrência de contribuições feitas por diferentes pontos e vista. Esta característica faz com que pessoas com diferentes graus de exigência e tolerância sobre diferentes aspectos participem do processo, e esta diversidade faz com que o Crowdsrouncing seja uma opção interessante para realizar testes de satisfação e avaliação. Este potencial já foi comprovado em vários trabalhos, como o que foi conduzido por J. A. Redi \cite{Redi2013} com a finalidade de avaliar subjetivamente aspectos estéticos em imagens.
+
+Outro trabalho interessante relacionado com o avaliação é o CrowdStudy, um toolkit para avaliação de interfaces Web baseado em Crowdsourcing \cite{Nebeling}.
+
+
+Em relação à utilização de um ambiente de apoio como suporte computacional para a construção colaborativa de artefatos, foram encontrados alguns trabalhos interessantes como o da metodologia HCOME\cite{ Kotis2006},  voltada para a construção colaborativa de ontologias. A HCOME conta com o ambiente de apoio HCONE (Figura \ref{fig0002}) que suporta todas as atividades necessárias, tanto para as colaborações individuais quanto para a sua integração em um produto final, assim como assegura que a metodologia seja seguida corretamente.
+
+\begin{figure}[!htb]
+\centering
+\label{fig0002}
+\includegraphics[scale=0.35]{figure/fig0002}
+\caption{HCONE - um ambiente de apoio para a metodologia HCOME\cite{Kotis2006}.}
+\end{figure}
+
+
+\section{Proposta de Tese}
+
+Conforme se pode observar na Figura \ref{fig0001}, a metodologia Video4All é aplicada na fase de pós-produção dos vídeos e, como o objetivo deste projeto é voltado para a produção de conteúdo extra para vídeos existentes, se concluiu que a sua análise seria um bom ponto de partida para a construção da ExCAM. 
+
+\par Analisando as características da Video4All foram verificado alguns  pontos que precisarão ser abordados de maneira diferente, como pode ser observado na Tabela \ref{table0001}, e foram identificados os incrementos necessários para se chegar à nova metodologia ora proposta. São eles:
+
+
+\begin{table}[!htb]
+\centering
+\caption{Video4All x ExCAM.} 
+\scalebox{0.8}{
+\begin{tabular}{|l|l|}
+\hline
+\multicolumn{1}{|c|}{\textbf{Video4All}}                                                                                                                                                                             & \multicolumn{1}{c|}{\textbf{ExCAM}}                                                                                                                                                                                                                                                      \\ \hline
+\textit{\begin{tabular}[c]{@{}l@{}}Apresenta um método para a autoria\\ de conteúdo acessível, que pode ser \\ adaptado e também utilizado para \\ outros tipos de conteúdo extra.\end{tabular}}                     & \textit{\begin{tabular}[c]{@{}l@{}}Apresenta um método para a \\ autoria de diversas modalidades\\ de conteúdo extra, admitindo \\ que sejam inseridos Templates\\ adicionais para novas \\ modalidades de conteúdo extra.\end{tabular}}                                                                \\ \hline
+\textit{\begin{tabular}[c]{@{}l@{}}Propõe modelos de produção \\ para quatro categorias de\\ conteúdo acessível:\\ Legenda, Audiodescrição,\\ Transcrição e Língua de Sinais.\end{tabular}}                          & \textit{\begin{tabular}[c]{@{}l@{}}Propõe uma abordagem baseada \\ em Templates para determinar as\\ características do processo de \\ produção, levanto em conta: \\ Propósito, Natureza e Tipo.\end{tabular}}                                                                                         \\ \hline
+\textit{\begin{tabular}[c]{@{}l@{}}A autoria do conteúdo é  feita \\ de forma centralizada.\end{tabular}}                                                                                                            & \textit{\begin{tabular}[c]{@{}l@{}}A autoria do conteúdo é  feita de \\ forma distribuída, seguindo uma \\ abordagem Crowdsourcing.\end{tabular}}                                                                                                                                                       \\ \hline
+\textit{\begin{tabular}[c]{@{}l@{}}O conteúdo produzido é avaliado \\ de acordo com  critérios objetivos\\ e métodos quantitativos.\end{tabular}}                                                                    & \textit{\begin{tabular}[c]{@{}l@{}}A avaliação do conteúdo é  realizada\\ de forma subjetiva por um grupo \\ heterogêneo de colaboradores de \\ acordo com uma abordagem \\ Crowdsourcing.\end{tabular}}                                                                                                \\ \hline
+\textit{\begin{tabular}[c]{@{}l@{}}Apresenta o ferramental teórico \\ necessário para o processo de \\ autoria, sendo que o autor deve\\ utilizar as ferramentas \\computacionais de sua preferência.\end{tabular}} & \textit{\begin{tabular}[c]{@{}l@{}}Apresenta o ferramental teórico\\ necessário para o processo de\\ produção do conteúdo extra, assim \\ como um ambiente de apoio que \\ oferece: (1) Ferramentas de Autoria;\\(2) Gerencia de Crowdsourcing;\\(3) Gerencia das atividades da\\Metodologia\end{tabular}} \\ \hline
+\end{tabular}
+}
+
+\label{table0001}
+\end{table}
+
+
+\begin{itemize}
+\item \textbf{Classificação para o Conteúdo Extra:} como o foco de Villena\cite{Villena2016} era o conteúdo acessível, não houve a necessidade de se criar uma classificação geral para as diferentes modalidades de conteúdo extra, porém neste projeto esta classificação é algo essencial, pois será utilizada para definir as características do processo de produção, assim como especificidades das atividades da autoria de cada tipo de conteúdo. Esta classificação será feita com base em três dimensões: Propósito, Natureza e Tipo.
+
+\item \textbf{Suporte à Autoria Colaborativa:} a ExCAM deverá permitir a autoria colaborativa de conteúdo extra, em especial permitirá que seja utilizada uma abordagem Crowdsourcing. Serão definidas as guidelines para a modelagem do processo de autoria seguindo uma abordagem Crowdsourcing, de forma que se possa utilizar tanto um sistema externo como o Amazon Mechanical Turk (AMT) \cite{Difallah:2015:DMC:2736277.2741685}, quanto o Módulo de Gerência de Crowdsourcing que será desenvolvido.
+
+
+\item \textbf{Suporte Computacional à Metodologia:} como não havia pretensão de prover suporte computacional para a Video4All, algumas atividades de gestão do processo de produção não foram detalhadas, apenas das atividades específicas do processo de autoria. Uma vez definidos de forma detalhada todos os axiomas, regras e atividades do processo de produção da ExCAM, será desenvolvido um Módulo de Gerência das Atividades que ajudará a garantir que a metodologia seja seguida na integra.
+
+\item \textbf{Biblioteca de Ferramentas de Autoria:} para garantir suporte computacional para a criação dos diferentes tipos de conteúdo, será desenvolvida uma biblioteca com um conjunto de ferramentas de autoria que poderão ser utilizadas durante o processo de produção.  
+
+\item \textbf{Ambiente de Apoio:} espera-se que um ambiente de apoio forneça um incentivo extra para a adoção da metodologia. Este ambiente, que será chamado de ExCAME, conterá de maneira integrada, o Módulo de Gerência das Atividades, o Módulo de Gerência de Crowdsourcing, e a Biblioteca de Ferramentas de Autoria. Além disso, o ambiente contará com assistentes de configuração do projeto com base na sua classificação, e contará com as funcionalidades necessárias para geração do produto final.
+
+
+\end{itemize}
+
+
+\par A autoria de conteúdo extra é o típico exemplo de um problema que não pode ser totalmente automatizado, pois apresenta uma série de atividade que requerem inteligência humana para serem realizadas. Este cenário se adequou perfeitamente ao paradigma apresentado por Luis von Ahn apresentou, em 2005, o Human Computation (HC) \cite{VonAhn:2005:HC:1168246}.
+
+HC se refere aos cenários nos quais parte das atividades podem ser automatizadas, enquanto outras necessitam de inteligência humana. Neste contexto, uma tarefa que inerentemente requer inteligência humana para sua execução é chamada de Human Intelligent Tasks (HIT) \cite{Mo:2013:OPH:2505515.2505755}.
+
+Seguindo o ponto de vista da HC, será possível identificar as HITs necessárias para a autoria de conteúdo extra, para que sejam executadas por colaboradores humanos, enquanto todas as outras atividades são automatizadas e modeladas como parte do processo, e gerenciadas pelo ExCAME. A Human Computation será o primeiro dos pilares de apoio da ExCAM.
+ 
+Mais uma questão que precisar ser observada, é que as HITs necessárias para a autoria deste tipo de conteúdo podem ser muito grandes ou complexas para que sejam executadas por um usuário, e mesmo um grupo reduzido de colaboradores pode ter dificuldades para conseguir realizar estas tarefas em um tempo aceitável. Por conta desta característica foi decidido que a ExCAM deve permitir uma abordagem Crowdsourcing, que será o segundo pilar de apoio, levando a autoria colaborativa ao seu limite superior em termos de distribuição das tarefas.
+
+Crowdsourcing é uma abordagem que consiste em utilizar o poder de processamento de uma multidão (crowd) de colaboradores \cite{Howe2006}, e usualmente utiliza a estratégia de dividir as HITs em microtarefas (microtasks), pequenas e simples o suficiente para serem realizadas de forma rápida e independente por qualquer usuário da crowd \cite{Difallah:2015:DMC:2736277.2741685}. Distribuir o processamento de cada HIT entre os colaboradores permite um melhor aproveitando potencial de processamento da crowd.
+
+Existem diversos trabalhos que apresentam casos de sucesso envolvendo a utilização de Crowdsourcing em atividades relacionadas com vídeos, como geração de  bases de anotação \cite{DiSalvo:2013:CAS:2501105.2501113}, reconstrução de storyline \cite{Kim:2014:JSL:2679600.2680027} e mesmo composição colaborativa de vídeos \cite{Wilk:2015:VCC:2713168.2713178}, o que leva a crer que seja uma boa abordagem para o processo de autoria de conteúdo extra para os vídeos, assim como para a classificação e avaliação do conteúdo gerado.
+
+Um desafio da utilização deste tipo de abordagem Crowdsourcing é modelar corretamente o problema sob o ponto de vista da Human Computation, ou seja, identificar, delimitar e definir corretamente as HITs é um passo importante para que o CS possa ser aplicado com sucesso nestes casos.
+
+Para tratar esta questão será utilizada uma estratégia baseada em uma biblioteca de Templates de Produção, criados a partir da análise das três dimensões citadas anteriormente: Propósito, Natureza, e Tipo. Serão analisadas diferentes modalidades de conteúdo extra previstas no projeto.
+
+ O \textbf{Propósito} será utilizado para navegar na biblioteca de modelos, definir restrições de domínio, e assim ajudar o processo de configuração do projeto de autoria.
+
+A \textbf{Natureza} será utilizada para definir as estratégias de distribuição das microtarefas, assim como os critérios usados para consolidar as contribuições parciais em um resultado final. Esta dimensão também será utilizada para determinar a forma como o resultado final deverá ser incorporado ao vídeo original.
+
+O \textbf{Tipo} é uma dimensão que diz respeito ao formato do conteúdo que está sendo gerado, se é um objeto multimídia, um áudio, ou um artefato textual como uma legenda. Esta dimensão ajudará a selecionar quais ferramentas de autoria serão associadas ao projeto, e como será a política de verificação e validação das contribuições.
+
+Com base nestas três dimensões serão gerados os Templates de Produção, que constituem o terceiro pilar de apoio da metodologia. Cada um destes modelos apresentará sugestões de como as HITs devem ser definidas dentro do projeto de autoria, além de determinar como as atividades operacionais do fluxo de produção serão configuradas.
+
+Outra questão que também precisa ser tratada é a gerência das atividades Crowdsourcing, assim como a gerência dos colaboradores. Existem ambientes consagrados que são capazes de realizar estas atividades, como é o caso do Amazon Mechanical Turk \cite{Difallah:2015:DMC:2736277.2741685}. Porém, a fim de disponibilizar um sistema completo de apoio para o processo de autoria, serão implementadas no ExCAME as funcionalidades necessárias para gerenciar as atividades de CS que serão previstos na metodologia.
+
+
+O modelo Crowdsourcing, entre outras coisas, permite que se trabalhe com grupos grandes e heterogêneos de colaboradores, o que favorece a ocorrência de contribuições feitas por diferentes pontos e vista. Esta característica faz com que pessoas com diferentes graus de exigência e tolerância sobre diferentes aspectos participem do processo, e esta diversidade faz com que o Crowdsrouncing seja uma opção interessante para realizar testes de satisfação e avaliação. Este potencial já foi comprovado em vários trabalhos, como o que foi conduzido por J. A. Redi \cite{Redi2013} com a finalidade de avaliar subjetivamente aspectos estéticos em imagens.
+
+Outro trabalho interessante relacionado com o avaliação é o CrowdStudy, um toolkit para avaliação de interfaces Web baseado em Crowdsourcing \cite{Nebeling}.
+
+Por conta dos casos de sucesso encontrados foi decidido que, além do processo de autoria, o processo de avaliação do conteúdo extra produzido seria avaliado utilizando uma abordagem Crowdsourcing. Consequentemente também serão desenvolvidas funcionalidades no ambiente de apoio que suportem esta atividade.
+
+
+
+O processo de autoria multimídia também é algo importante para este trabalho, uma vez que está no centro de todo o processo de produção do conteúdo extra. A tese de doutorado defendida por R. L. Guimarães \cite{22334} descreve um processo de autoria multimídia dividido em quatro estágios: Captura e Processamento, Acesso e Navegação, Criação e Produção, e Enriquecimento de Conteúdo. 
+
+Este trabalho, além de apresentar um fluxo de produção do conteúdo multimídia trata do enriquecimento de conteúdo, o que converge para  objetivo deste projeto  pois envolve agregar recursos aos vídeos com o objetivo de enriquece-los de diferentes formas. Outro ponto convergente entre os trabalhos é que Guimarães \cite{22334} utiliza conceitos de autoria colaborativa para gerar os artefatos multimídia.
+
+
+
+
+
+\section{Contribuições Esperadas}
+
+\par A principal contribuição deste projeto será uma metodologia capaz de guiar os projetos de autoria de conteúdo extra para vídeos, utilizando o poder de processamento obtido ao aplicar abordagens Crowdsourcing. 
+
+Para que seja possível modelar o processo de produção de conteúdo extra como um projeto de Human Computation, é necessário criar meios de identificar as HITs contidas tanto na forma geral do problema, quanto nas suas especializações, que decorrem das diferentes modalidades de conteúdo. Desta forma, tanto o método utilizado para realizar esta modelagem, quanto a ferramenta assistente de identificação das HITs constituem contribuições que podem ser utilizadas e reaproveitadas em diversos contextos.
+
+De forma semelhante, o método utilizado para propor a maneira como as HITs devem ser divididas em microtarefas, assim como a ferramenta assistente que facilitará esta atividade, serão contribuições interessantes para projetos que planejem utilizar uma abordagem Crowdsourcing.
+
+Ainda na área do Crowdsourcing, o próprio modulo de gerência de Crowdsourcing será uma contribuição importante, pois apesar de já existirem diversos ambientes capazes de gerenciar usuários, colaborações, integração das contribuições, validação de confiabilidade, assim como outras atividades que a CS requer, ainda não existe um ambiente open source que possa ser utilizado como referência em projetos para os quais é necessário desenvolver ambiente próprio.
+
+Outras contribuições decorrerão das ferramentas de autoria que serão desenvolvidas para o ExCAME, assim como alguns conceitos e tecnologias que serão propostao e utilizados no seu desenvolvimento.
+
+Alguns exemplos destas contribuições adicionais são a Hierarquia de Estereótipos Linguísticos, e a Rede Multimídia de Conceitos.
+
+A Hierarquia de Estereótipos Linguísticos fornecerá uma forma de contextualizar o conteúdo produzido de acordo com as características de vocabulário do autor, que revela questões sobre sua idade, região, área de atuação e mesmo sobre o grau de formalismo utilizado no processo de autoria, conforme pode ser visto na Tabela \ref{table0002}. Esta análise é feita com base nas variações diatópicas, diacrônicas, diastráticas e diafásicas presentes no perfil linguístico de determinados grupos. Este modelo poderá facilitar o entendimento tanto das características do conteúdo produzido pelo autor quanto as características desejadas para o material produzido, de acordo com o perfil do público alvo.
+
+
+
+
+\begin{table}[!htb]
+\centering
+\caption{Exemplo de resumo de um Estereótipo Linguístico.}
+\label{table0002}
+\scalebox{0.95}{
+\begin{tabular}{|l|c|c|c|}
+\hline
+\multicolumn{1}{|c|}{\textbf{Fator / Esteriótipo}} & \textbf{\begin{tabular}[c]{@{}c@{}}Médico\\ Capixaba\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Paciente\\ Ouvinte\\ Carioca\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Paciente\\ Surdo\end{tabular}} \\ \hline
+\textbf{Diacrônico}                                & Antigo                                                             & Atual                                                                         &                                                                   \\ \hline
+\textbf{Diatópico}                                 & ES                                                                 & RJ                                                                            & ES                                                                \\ \hline
+\textbf{Diastrático}                               & Medicina                                                           &                                                                               & Libras                                                            \\ \hline
+\textbf{Diafásico}                                 & Formal                                                             & Coloquial                                                                     &                                                                   \\ \hline
+\end{tabular}
+}
+\end{table}
+
+
+
+A Rede Multimídia de Conceitos é uma estrutura que tem como objetivo fornecer representações de determinados conceitos, que sejam mais adequados a um determinado Estereótipo Linguístico. Este modelo relaciona as formas alternativas de representação de conceitos sejam textuais, imagens, vídeos ou outras, levando em conta em qual cenário contextual cada uma destas representações é utilizada, como pode ser observado na Figura \ref{fig0003}. Este recurso poderá ser utilizado em diversos tipos de aplicação, como por exemplo em geradores de versões alternativas para documentos multimídia, versões acessíveis de documentos, sistemas de tradução, e ferramentas de anotação de vídeo. 
+
+\begin{figure}[!htb]
+\centering
+\label{fig0003}
+\includegraphics[scale=0.23]{figure/fig0003}
+\caption{Exemplo de representação do conceito VOCÊ em uma Rede Multimídia de Conceitos.}
+\end{figure}
+
+A biblioteca de ferramentas de autoria que será produzida neste trabalho também será uma contribuição importante, uma vez que apoiarão a autoria de diversos tipos de conteúdo, darão suporte a Crowdsounrcing, e ainda poderão ser utilizadas e estendidas livremente em outros projetos. Algumas das ferramentas previstas terão como objetivo a autoria de legendas, áudio alternativo, áudio-descrição, quadros multimídia, e conforme novas necessidades forem sendo identificadas, mais ferramentas serão produzidas.
+
+Todavia, existe ainda uma contribuição que, apesar de ter um caráter mais cultural que tecnológico, é tão importante quanto as demais. Esta contribuição se dará na forma do potencial aumento do volume de conteúdo extra produzido, e consequentemente resultando em aumento na geração de produtos multimídia como os vídeos acessíveis e os videos disponíveis em diversos idiomas, assim como na revitalização de obras que já não são populares por meio da inserção de conteúdo multimídia.  
+
+
+
+
+\section{Estado Atual do Trabalho}
+
+\par O projeto atualmente encontra-se em fase de planejamento, e espera-se que o primeiro protótipo  seja implementado no segundo semestre de 2016.
+
+A fim de entender melhor a natureza de um processo Crowdsourcing para a autoria de conteúdo extra, foi escolhido um estudo de caso para que seja gerado um protótipo específico para ele. Com base na análise deste experimento serão identificadas as partes do processo que devem ser generalizadas, e a partir deste ponto a metodologia ExCAM será detalhada e o ambiente de apoio ExCAME começará a ser implementado.
+
+O cenário escolhido para este experimento inicial foi o de autoria de legendas em português para vídeos com áudio em inglês. Trata-se de uma atividade que atualmente é realizada por diversos grupos, que apesar de contarem com softwares de edição que facilitam a autoria das legendas, não contam com sistemas que os auxiliam na gestão do processo colaborativo. Pretende-se realizar este experimento em parceria com o Observatório de Tradução, Arte, Mídia e Ensino da UFES, que já realiza atividades de legendagem para vídeos.
+
+Outra atividade que está sendo realizada é a de classificação das modalidades de conteúdo extra para vídeos, de acordo com a as três dimensões propostas: Propósito, Natureza e Tipo.
+
+Para a dimensão Natureza do conteúdo extra foi criada uma hierarquia, que pode ser observada na Figura \ref{fig0004}, para ajudar a definir de que forma o conteúdo se relaciona com o vídeo original. Esta dimensão ajuda a entender como o conteúdo deve ser sincronizado com o vídeo, assim como a forma como será feita a sua integração na versão final.
+
+
+
+\begin{figure}[!htb]
+\centering
+\label{fig0004}
+\includegraphics[scale=0.37]{figure/fig0004}
+\caption{Hierarquia da dimensão NATUREZA do conteúdo extra para vídeos.}
+\end{figure}
+
+Quando o conteúdo é classificado como alternativo, sabe-se que o artefato gerado substituirá um dos componentes do vídeo original, como a trilha de áudio por exemplo.
+
+Ao se classificar o conteúdo como sendo de natureza Adicional, ele ainda pode ser Complementar ou Suplementar. 
+
+O conteúdo Complementar é aquele que preenche uma lacuna semântica presente no vídeo original, como se faz ao adicionar legendas na língua de sinais em um cenário no qual o público alvo pode conter pessoas surdas. Neste caso o vídeo foi complementado pelo conteúdo extra, de forma que somente então passou a alcançar o seu objetivo.
+
+O conteúdo Suplementar visa adicionar elementos no vídeo original, sendo que estes elementos constituem informação adicional, e não o preenchimento de lacunas semânticas para que o vídeo seja eficaz em seu objetivo. Um exemplo deste tipo de conteúdo são os quadros multimídia que exibem informações sobre os jogadores e sobre a pontuação durante as partidas esportivas, estas informações não são necessárias para que se compreenda o jogo, mas melhoram significativamente a experiência do usuário.  
+
+Apesar de o processo de produção do conteúdo extra ainda não ter sido totalmente delimitado, as grandes etapas já foram mapeadas conforme por der visto na Figura \ref{fig0005}. 
+
+\begin{figure}[!htb]
+\centering
+\label{fig0005}
+\includegraphics[scale=0.35]{figure/fig0005}
+\caption{Visão geral do processo de autoria crowdsouncing de conteúdo extra para vídeos.}
+\end{figure}
+
+Espera-se que após que a realização do experimento inicial os detalhes deste processo tornem-se mais claros e permitam criar uma versão mais detalhada e formal do processo de autoria. O objetivo é descrever tanto as atividades que envolvem a gerência das microtarefas quanto as que envolvem a gerência dos colaboradores, além da interface entre o módulo de Crowdsourcing e o ambiente de apoio.
+
+
+
+\section{Descrição e Avaliação dos Resultados}
+
+\par A avaliação que se pode fazer até o momento diz respeito à preparação do projeto. O levantamento do referencial teórico revelou que a adoção do modelo Crowdsourcing, como a base para a autoria de conteúdo extra para vídeos, é uma estratégia viável e promissora. O modelo de produção de conteúdo multimídia também está bem delimitado com base nos trabalhos de Villena\cite{Villena2016} e Guimarães\cite{22334}, assim como as estratégias de utilização do conteúdo produzido para enriquecer os vídeos originais.
+
+O primeiro experimento está sendo modelado, e espera-se que a partir dos seus resultados seja possível avançar na modelagem da metodologia ExCAM, assim como na criação do apoio computacional para ela. Este primeiro experimento, que envolverá a geração de legendas em português para vídeos com áudio em inglês, visa gerar um modelo para o processo de autoria, com todas as características previstas incluindo a utilização de uma abordagem Crowdsourcing.
+
+A avaliação do conteúdo gerado também será feita utilizando Crowdsourcing, de forma que um grupo heterogêneo de colaboradores possa fornecer uma avaliação subjetiva do conteúdo gerado, sob o ponto de vista da experiência do usuário. Como o objetivo deste projeto é gerar versões de vídeos que sejam mais interessantes para o usuário, foi escolhida uma abordagem de avaliação que priorize a dimensão humana, permitindo avaliar o impacto causado no público alvo pelo produto gerado.
+
+Outro ponto a ser avaliado será a eficácia da metodologia em permitir que pessoas, com diferentes graus de conhecimento técnico, iniciem projeto de autoria de conteúdo extra e gerem suas versões enriquecidas de vídeos.
+
+Espera-se que no segundo semestre de 2016 este primeiro experimento seja conduzido, e que seja possível realizar a análise dos primeiros resultados práticos.
+
+
+
+%
+% The following two commands are all you need in the
+% initial runs of your .tex file to
+% produce the bibliography for the citations in your paper.
+\bibliographystyle{abbrv}
+\bibliography{sigproc}  % sigproc.bib is the name of the Bibliography in this case
+% You must have a proper ".bib" file
+%  and remember to run:
+% latex bibtex latex latex
+% to resolve all references
+%
+% ACM needs 'a single self-contained file'!
+%
+
+%\balancecolumns % GM June 2007
+% That's all folks!
+\end{document}

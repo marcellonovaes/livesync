@@ -1,0 +1,173 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2016.5.31)  21 MAR 2017 15:02
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**template.tex
+(./template.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(./jidm.cls
+Document Class: jidm 2009/12/17 JIDM class based on ACM Trans.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@@auth=\count79
+\c@@inst=\count80
+\c@auco=\count81
+\instindent=\dimen102
+
+
+Using JIDM: 2010/03/12
+
+\footheight=\dimen103
+\normaltextheight=\dimen104
+\c@secnumbookdepth=\count82
+\c@part=\count83
+\c@section=\count84
+\c@subsection=\count85
+\c@subsubsection=\count86
+\c@paragraph=\count87
+\c@figure=\count88
+\c@table=\count89
+\@narrowfig=\dimen105
+\@nfigbox=\box26
+\@nfcapbox=\box27
+\@abstract=\box28
+\@terms=\box29
+\@keywords=\box30
+\bibhang=\skip41
+\bibindent=\dimen106
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: dvips.def on input line 94.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/dvips.def
+File: dvips.def 2014/10/14 v3.0j Driver-dependent file (DPC,SPQR)
+))
+\Gin@req@height=\dimen107
+\Gin@req@width=\dimen108
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+\c@theorem=\count90
+
+\citation{Baeza-YatesR99}
+
+LaTeX Warning: Citation `Baeza-YatesR99' on page 1 undefined on input line 65.
+
+(./template.aux)
+\openout1 = `template.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 95.
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 95.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <17.28> on input line 97.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 97.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 97.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 97.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 97.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 97.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 97.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 97.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 97.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 97.
+
+
+LaTeX Warning: Reference `@lastpg' on page 1 undefined on input line 123.
+
+[1
+
+]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 178.
+ [2]
+
+! LaTeX Error: Cannot determine size of graphic in schedule.pdf (no BoundingBox
+).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.202 ...aphics[width=0.9\textwidth]{schedule.pdf}
+                                                   % YOU MAY SHRINK YOUR FIG...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: schedule.pdf Graphic file (type eps)
+<schedule.pdf> [3] (./template.bbl [4]) [5] (./template.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1157 strings out of 493090
+ 13438 string characters out of 6134868
+ 69680 words of memory out of 5000000
+ 4648 multiletter control sequences out of 15000+600000
+ 23799 words of font info for 61 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 26i,9n,21p,1215b,347s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on template.dvi (5 pages, 18024 bytes).

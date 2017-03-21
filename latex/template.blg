@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: template.aux
+The style file: jidm.bst
+Database file #1: jidmb.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--empty address in Baeza-YatesR99
+ptr=1, stack=
+{\em {Encyclopedia of Database Systems}}
+---the literal stack isn't empty for entry BorgidaCL09
+while executing---line 3641 of file jidm.bst
+ptr=1, stack=
+{\em Conceptual Modeling}
+---the literal stack isn't empty for entry SilvaLC96
+while executing---line 3641 of file jidm.bst
+Warning--empty publisher in FerreiraGALV09
+You've used 7 entries,
+            3054 wiz_defined-function locations,
+            893 strings with 11231 characters,
+and the built_in function-call counts, 5900 in all, are:
+= -- 450
+> -- 514
+< -- 6
++ -- 157
+- -- 165
+* -- 608
+:= -- 1074
+add.period$ -- 32
+call.type$ -- 7
+change.case$ -- 56
+chr.to.int$ -- 7
+cite$ -- 9
+duplicate$ -- 165
+empty$ -- 304
+format.name$ -- 189
+if$ -- 1111
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 7
+newline$ -- 40
+num.names$ -- 74
+pop$ -- 60
+preamble$ -- 1
+purify$ -- 102
+quote$ -- 0
+skip$ -- 161
+stack$ -- 0
+substring$ -- 247
+swap$ -- 70
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 110
+warning$ -- 2
+while$ -- 59
+width$ -- 0
+write$ -- 106
+(There were 2 error messages)
