@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: sig-alternate-sample.aux
+The style file: abbrv.bst
+Database file #1: sigproc.bib
+Warning--entry type for "RobertServerless" isn't style-file defined
+--line 20 of file sigproc.bib
+Warning--I didn't find a database entry for "yu2008understanding"
+You've used 6 entries,
+            2118 wiz_defined-function locations,
+            538 strings with 4610 characters,
+and the built_in function-call counts, 1859 in all, are:
+= -- 189
+> -- 66
+< -- 2
++ -- 27
+- -- 20
+* -- 107
+:= -- 303
+add.period$ -- 19
+call.type$ -- 6
+change.case$ -- 25
+chr.to.int$ -- 0
+cite$ -- 6
+duplicate$ -- 82
+empty$ -- 164
+format.name$ -- 20
+if$ -- 407
+int.to.chr$ -- 0
+int.to.str$ -- 6
+missing$ -- 5
+newline$ -- 32
+num.names$ -- 12
+pop$ -- 30
+preamble$ -- 1
+purify$ -- 19
+quote$ -- 0
+skip$ -- 67
+stack$ -- 0
+substring$ -- 102
+swap$ -- 22
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 24
+warning$ -- 0
+while$ -- 21
+width$ -- 7
+write$ -- 66
+(There were 2 warnings)
