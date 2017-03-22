@@ -1,0 +1,36 @@
+\begin{thebibliography}{1}
+
+\bibitem{howe2006rise}
+J.~Howe.
+\newblock The rise of crowdsourcing.
+\newblock {\em Wired magazine}, 14(6):1--4, 2006.
+
+\bibitem{RobertServerless}
+M.~Roberts.
+\newblock Serverless architectures.
+
+\bibitem{schweiger2013fully}
+F.~Schweiger et~al.
+\newblock Fully automatic and frame-accurate video synchronization using
+  bitrate sequences.
+\newblock {\em Multimedia, IEEE Transactions on}, 15(1):1--14, 2013.
+
+\bibitem{segundo2015remote}
+R.~Segundo and C.~Santos.
+\newblock Remote temporal couplers for multiple content synchronization.
+\newblock In {\em Computer and Information Technology, 2015 IEEE International
+  Conference on}, pages 532--539. IEEE, 2015.
+
+\bibitem{su2012making}
+K.~Su et~al.
+\newblock Making a scene: alignment of complete sets of clips based on pairwise
+  audio match.
+\newblock In {\em Proceedings of the 2nd ACM International Conference on
+  Multimedia Retrieval}, page~26. ACM, 2012.
+
+\bibitem{wang2014videosnapping}
+O.~Wang et~al.
+\newblock Videosnapping: Interactive synchronization of multiple videos.
+\newblock {\em ACM Transactions on Graphics (TOG)}, 33(4):77, 2014.
+
+\end{thebibliography}

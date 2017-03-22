@@ -1,0 +1,81 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: template.aux
+A level-1 auxiliary file: livesync_tool.aux
+The style file: jidm.bst
+Database file #1: jidmb.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--no number and no volume in bano2015discovery
+Warning--no number and no volume in brabham2014crowdsourcing
+Warning--empty publisher in carlier2010crowdsourced
+Warning--empty address in carlier2010crowdsourced
+Warning--no number and no volume in hal-01162603
+Warning--empty publisher in gadgil2014web
+Warning--empty address in gadgil2014web
+Warning--empty publisher in hossfeld2011quantification
+Warning--empty address in hossfeld2011quantification
+Warning--no number and no volume in huang2013evolution
+Warning--empty publisher in kacorri2014introducing
+Warning--empty address in kacorri2014introducing
+Warning--empty publisher in keimel2012video
+Warning--empty address in keimel2012video
+Warning--empty publisher in nguyen2013generating
+Warning--empty address in nguyen2013generating
+Warning--empty publisher in nguyen2013tagging
+Warning--empty address in nguyen2013tagging
+Warning--empty publisher in rainer2014subjective
+Warning--empty address in rainer2014subjective
+Warning--empty publisher in segundo2015remote
+Warning--empty address in segundo2015remote
+Warning--empty publisher in steiner2011crowdsourcing
+Warning--empty address in steiner2011crowdsourcing
+Warning--empty publisher in su2012making
+Warning--empty address in su2012making
+Warning--no number and no volume in vondrick2013efficiently
+Warning--empty publisher in wu2011video
+Warning--empty address in wu2011video
+Warning--empty publisher in yu2012challenges
+Warning--empty address in yu2012challenges
+Warning--no number and no volume in yu2008understanding
+You've used 23 entries,
+            3054 wiz_defined-function locations,
+            969 strings with 14218 characters,
+and the built_in function-call counts, 18958 in all, are:
+= -- 1562
+> -- 1525
+< -- 10
++ -- 470
+- -- 496
+* -- 1826
+:= -- 3323
+add.period$ -- 104
+call.type$ -- 23
+change.case$ -- 187
+chr.to.int$ -- 23
+cite$ -- 55
+duplicate$ -- 575
+empty$ -- 1076
+format.name$ -- 568
+if$ -- 3662
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 35
+newline$ -- 117
+num.names$ -- 230
+pop$ -- 204
+preamble$ -- 1
+purify$ -- 325
+quote$ -- 0
+skip$ -- 544
+stack$ -- 0
+substring$ -- 789
+swap$ -- 203
+text.length$ -- 10
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 460
+warning$ -- 32
+while$ -- 201
+width$ -- 0
+write$ -- 321
+(There were 32 warnings)

@@ -1,0 +1,183 @@
+% by Mirella M. Moro; version: January/18/2012 @ 04:16pm
+% -- 01/18/2012: more discussion on SBBD + JIDM; overall revision
+% -- 09/03/2010: bib file with names for proceedings and journals; cls with shrinked {received}
+% -- 08/27/2010: appendix, table example, more explanation within comments, editors' data
+
+\documentclass[jidm,a4paper]{jidm} % NOTE: JIDM is published on A4 paper
+\usepackage{graphicx,url}  % for using figures and url format
+\usepackage[T1]{fontenc}   % avoids warnings such as "LaTeX Font Warning: Font shape 'OMS/cmtt/m/n' undefined"
+
+%\usepackage{cite} % NOTE: do **not** include this package because it conflicts with jidm.bst
+
+% Standard definitions
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newdef{definition}[theorem]{Definition}
+\newdef{remark}[theorem]{Remark}
+
+% New environment definition
+\newenvironment{latexcode}
+{\ttfamily\vspace{0.1in}\setlength{\parindent}{18pt}}
+{\vspace{0.1in}}
+
+% ALL FIELDS UNTIL BEGIN{document} ARE MANDATORY
+
+% The following data (volume, number and page) are given by the editors prior to publishing your article
+\jidmVolume{5}
+\jidmNumber{1}
+\jidmYear{14}
+\jidmMonth{June}
+\setcounter{page}{1}
+
+
+% Includes headers with simplified name of the authors and article title
+\markboth{A.C. Salgado and V. Braganholo}
+{JIDM - Journal of Information and Data Management}
+%  -> \markboth{}{}
+%         takes 2 arguments
+%         ex: \markboth{M. M. Moro}{Any article title}
+
+
+% Title of the article
+\title{LiveSync: a Tool for Real Time Video Streaming Synchronization from Independent Sources}
+
+
+% List of authors
+%IF THERE ARE TWO or more institutions, please use:
+%\author{Name of Author1\inst{1}, Name of Author2\inst{2}, Name of Author3\inst{2}}
+\author{Marcello N. de Amorim\inst{1}, Ricardo M. C. Segundo\inst{2}, Celso A. S. Santos\inst{3}}
+
+
+%Affiliation and email
+\institute{Universidade Federal do Espirito Santo, Brazil  \\ \email{novaes@inf.ufes.br , rmcs87@gmail.com , seibel@inf.ufes.br}
+% IF THERE IS ANOTHER INSTITUTION:
+%\and Name_of_the_second_institution \\
+%\email{address@whatever.com}
+}
+
+
+% Article abstract - it should be from 100 to 300 words
+\begin{abstract}
+\input{abstract}
+\end{abstract}
+
+
+% ACM Computing Classification System categories
+\category{H.4.4.3}{Information Systems Applications}{Crowdsourcing} 
+\category{H.3.2.7}{Human-Centered Computing}{Synchronous editors}
+
+% Categories and Descriptors are available at the 1998 ACM Computing Classification System
+% http://www.acm.org/about/class/1998/
+%  -> \category{}{}{}
+%         takes 3 arguments for the Computing Reviews Classification Scheme.
+%         ex: \category{D.3.3}{Programming Languages}{Language Constructs and Features}
+%                   [data types and structures]
+%                   the last argument, in square brackets, is optional.
+
+% Article keywords
+\keywords{live video, synchronization, crowdsourcing}
+%  -> \keywords{} (in alphabetical order \keywords{document processing, sequences,
+%                      string searching, subsequences, substrings})
+
+
+% THE ARTICLE BEGINS
+\begin{document}
+
+% This is optional:
+\begin{bottomstuff}
+The work is supported by CAPES and FAPES.
+\end{bottomstuff}
+
+\maketitle
+
+\section{Introduction}
+\input{introduction}
+
+\section{CrowdSourcing}
+\input{crowdsourcing}
+
+\subsection{Annotation}
+\input{annotation}
+
+\subsection{Quality}
+\input{quality}
+
+\subsection{Others}
+\input{others}
+
+\section{Video Synchronization}
+\input{video_synchronization}
+
+\section{Crowdsourced Video Synchronization}
+\input{crowd_sync}
+
+\subsection{Chunk Synchronization}
+\input{chunk_sync}
+
+\subsection{Frame Synchronization}
+\input{frame_sync}
+
+\section{Dynamic Alignment List}
+\input{dal}
+
+\subsection{Structure}
+\input{structure}
+
+\subsection{Time Offset Management}
+\input{time_offset_management}
+
+\subsection{Contribution Management}
+\input{contribution_management}
+
+\subsection{Convergence Criteria}
+\input{convergence}
+
+\subsection{Inference Algorithm}
+\input{inference}
+
+\section{LiveSync}
+\input{livesync}
+
+\subsection{Method}
+\input{method}
+
+\subsection{LiveSync Tool}
+\include{livesync_tool}
+
+\subsubsection{Main Functionalities}
+\input{main_funcionalities}
+
+\subsubsection{Architecture}
+\input{architecture}
+
+\subsubsection{Content Providers}
+\input{content_providers}
+
+\subsubsection{Coupler}
+\input{coupler}
+
+\subsubsection{MashUp Player}
+\input{mashup_player}
+
+\section{Experiments}
+\input{experiments}
+
+\subsection{Crowd Simulated DAL}
+\input{crowd_simulated_dal}
+
+\subsection{UGV Dataset Synchronization} 
+\input{ugv_dataset_synchronization}
+
+\section{Final Remarks}
+\input{final_remarks}
+
+% INCLUDE BIBLIOGRAPHY WHICH MUST FOLLOW jidm.bst TEMPLATE
+\bibliographystyle{jidm}
+\bibliography{jidmb}
+% For information on how to write bibliography entries, 
+% see file jidmb.bib
+
+\end{document}

@@ -1,0 +1,16 @@
+The LiveSync tool allows users to watch live video streams from multiple sources synchronized. If the videos are not synchronized, user can contribute and synchronize them- selves the videos and help building the synchronization, in a crowdsourced approach, believing that using human per- ception is better than using automatic approaches in this specific case.
+
+Our tool however presents some limitations that shall in the futures be suppressed, such as the number of events that we can follow. Now, each instance of Coupler and MashUps can handle only one event, in other words, we can’t cover two independent live events at the same time with one instance, for that porpoise we need more than on instance of each service. Also, new stream services must be added to increase our compatibilities.
+
+Github \url{https://github.com/rmcs87/liveSync} contains all code for LiveSync.
+
+
+%%%%%%%%%%%%%%%%% ACM %%%%%%%%%%%%%%%
+
+Crowds can be used in the most diverse situations: from designing a product to digitizing a word, going through most diverse scenarios, as discovering the structure of a protein. Exploring this variety of uses of the crowd this paper presented the possibility of using crowds in the video synchronization process. Using the crowd allows to address challenges that automatic processing techniques struggle to solve, like: moving cameras, constantly changing backgrounds, disappearing objects and others. A human can handle this problems without affecting his perception about a video
+
+Nevertheless, using crowdsourcing techniques also introduces new problems to the process: which pair of videos will be sent to each user? Where are the contributions stored? How can the contributions be validated? How to know that all videos are synchronized? What are the time offsets among the videos? Do I need to compare all videos? As solution to these problems the DAL was described. An structure that can manage temporal relations and crowd contributions.
+
+The first experiment showed the simpler where the crowd can be used: the live one. It is said simpler because the crowd has a smaller search area to find the videos alignment point. With the LiveSync this scenario can be solved and multiple mashups applications developed. The Second experiment showed us that the more reliable the crowd is, the less contributions we need and that 100\% to 60\% may generate similar results. Also we don't need the crowd to find all values: most of the relations we can infer from others. The third experiment showed us that it is possible to use the power of the crowd to synchronize video datasets, in the a hard dataset that presented challenge even to automatic solutions. From the second experiment we also learned that most contributions are to find that two chunks don't have a synchronization point. This is important and is the key point to the next steps in the development of our research, as we are developing new interfaces that helps the crowd members in identifying the synchronization points in entire videos at once, not only chunks. This will lead us in reducing the number of required contributions and achieve more accurate results.
+
+All code involved in our research is opensource and is available in [Removed for Blind Review].

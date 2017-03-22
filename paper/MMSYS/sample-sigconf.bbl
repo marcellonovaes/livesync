@@ -1,0 +1,295 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{00}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{{\tt DOI:}\penalty0{#1}\ }
+  \fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       #1{#1}          \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Bano and Cavallaro}{Bano and
+  Cavallaro}{2015}]%
+        {bano2015discovery}
+\bibfield{author}{\bibinfo{person}{Sophia Bano} {and} \bibinfo{person}{Andrea
+  Cavallaro}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Discovery and organization of multi-camera
+  user-generated videos of the same event}.
+\newblock \bibinfo{journal}{{\em Information Sciences\/}}
+  (\bibinfo{year}{2015}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Brabham, Ribisl, Kirchner, and
+  Bernhardt}{Brabham et~al\mbox{.}}{2014}]%
+        {brabham2014crowdsourcing}
+\bibfield{author}{\bibinfo{person}{Daren~C Brabham}, \bibinfo{person}{Kurt~M
+  Ribisl}, \bibinfo{person}{Thomas~R Kirchner}, {and} \bibinfo{person}{Jay~M
+  Bernhardt}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Crowdsourcing applications for public health}.
+\newblock \bibinfo{journal}{{\em American journal of Preventive Medicine\/}}
+  (\bibinfo{year}{2014}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Carlier, Charvillat, Ooi, Grigoras, and
+  Morin}{Carlier et~al\mbox{.}}{2010}]%
+        {carlier2010crowdsourced}
+\bibfield{author}{\bibinfo{person}{Axel Carlier}, \bibinfo{person}{Vincent
+  Charvillat}, \bibinfo{person}{Wei~Tsang Ooi}, \bibinfo{person}{Romulus
+  Grigoras}, {and} \bibinfo{person}{Geraldine Morin}.}
+  \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{Crowdsourced automatic zoom and scroll for video
+  retargeting}. In \bibinfo{booktitle}{{\em Proceedings of the 18th ACM
+  international conference on Multimedia}}. ACM, \bibinfo{pages}{201--210}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Douze, Revaud, Verbeek, J{\'e}gou, and
+  Schmid}{Douze et~al\mbox{.}}{2016}]%
+        {hal-01162603}
+\bibfield{author}{\bibinfo{person}{Matthijs Douze},
+  \bibinfo{person}{J{\'e}r{\^o}me Revaud}, \bibinfo{person}{Jakob Verbeek},
+  \bibinfo{person}{Herv{\'e} J{\'e}gou}, {and} \bibinfo{person}{Cordelia
+  Schmid}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{{Circulant temporal encoding for video retrieval
+  and temporal alignment}}.
+\newblock \bibinfo{journal}{{\em {International Journal of Computer Vision}\/}}
+  (\bibinfo{year}{2016}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Gadgil, Tahboub, Kirsh, and Delp}{Gadgil
+  et~al\mbox{.}}{2014}]%
+        {gadgil2014web}
+\bibfield{author}{\bibinfo{person}{Neeraj~J Gadgil}, \bibinfo{person}{Khalid
+  Tahboub}, \bibinfo{person}{David Kirsh}, {and} \bibinfo{person}{Edward~J
+  Delp}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{A web-based video annotation system for
+  crowdsourcing surveillance videos}. In \bibinfo{booktitle}{{\em IS\&T/SPIE
+  Electronic Imaging}}. International Society for Optics and Photonics,
+  \bibinfo{pages}{90270A--90270A}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Ho{\ss}feld, Seufert, Hirth, Zinner, Tran-Gia,
+  and Schatz}{Ho{\ss}feld et~al\mbox{.}}{2011}]%
+        {hossfeld2011quantification}
+\bibfield{author}{\bibinfo{person}{Tobias Ho{\ss}feld},
+  \bibinfo{person}{Michael Seufert}, \bibinfo{person}{Matthias Hirth},
+  \bibinfo{person}{Thomas Zinner}, \bibinfo{person}{Phuoc Tran-Gia}, {and}
+  \bibinfo{person}{Raimund Schatz}.} \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Quantification of YouTube QoE via crowdsourcing}.
+  In \bibinfo{booktitle}{{\em Multimedia (ISM), 2011 IEEE International
+  Symposium on}}. IEEE, \bibinfo{pages}{494--499}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Huang, Nahrstedt, and Steinmetz}{Huang
+  et~al\mbox{.}}{2013}]%
+        {huang2013evolution}
+\bibfield{author}{\bibinfo{person}{Zixia Huang}, \bibinfo{person}{Klara
+  Nahrstedt}, {and} \bibinfo{person}{Ralf Steinmetz}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Evolution of temporal multimedia synchronization
+  principles: A historical viewpoint}.
+\newblock \bibinfo{journal}{{\em ACM TOMM\/}} (\bibinfo{year}{2013}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kacorri, Shinkawa, and Saito}{Kacorri
+  et~al\mbox{.}}{2014}]%
+        {kacorri2014introducing}
+\bibfield{author}{\bibinfo{person}{Hernisa Kacorri}, \bibinfo{person}{Kaoru
+  Shinkawa}, {and} \bibinfo{person}{Shin Saito}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Introducing game elements in crowdsourced video
+  captioning by non-experts}. In \bibinfo{booktitle}{{\em Proceedings of the
+  11th Web for All Conference}}. ACM, \bibinfo{pages}{29}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Keimel, Habigt, Horch, and Diepold}{Keimel
+  et~al\mbox{.}}{2012}]%
+        {keimel2012video}
+\bibfield{author}{\bibinfo{person}{Christian Keimel}, \bibinfo{person}{Julian
+  Habigt}, \bibinfo{person}{Clemens Horch}, {and} \bibinfo{person}{Klaus
+  Diepold}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Video quality evaluation in the cloud}. In
+  \bibinfo{booktitle}{{\em International Packet Video Workshop)}}. IEEE.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Nguyen, Kim, and Miller}{Nguyen
+  et~al\mbox{.}}{2013}]%
+        {nguyen2013generating}
+\bibfield{author}{\bibinfo{person}{Phu Nguyen}, \bibinfo{person}{Juho Kim},
+  {and} \bibinfo{person}{Robert~C Miller}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Generating annotations for how-to videos using
+  crowdsourcing}. In \bibinfo{booktitle}{{\em CHI'13 Extended Abstracts on
+  Human Factors in Computing Systems}}. ACM, \bibinfo{pages}{835--840}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Nguyen-Dinh, Waldburger, Roggen, and
+  Tr{\"o}ster}{Nguyen-Dinh et~al\mbox{.}}{2013}]%
+        {nguyen2013tagging}
+\bibfield{author}{\bibinfo{person}{Long-Van Nguyen-Dinh},
+  \bibinfo{person}{C{\'e}dric Waldburger}, \bibinfo{person}{Daniel Roggen},
+  {and} \bibinfo{person}{Gerhard Tr{\"o}ster}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Tagging human activities in video by
+  crowdsourcing}. In \bibinfo{booktitle}{{\em Proceedings of the 3rd ACM
+  conference on International conference on multimedia retrieval}}. ACM,
+  \bibinfo{pages}{263--270}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Rainer and Timmerer}{Rainer and
+  Timmerer}{2014}]%
+        {rainer2014subjective}
+\bibfield{author}{\bibinfo{person}{Benjamin Rainer} {and}
+  \bibinfo{person}{Christian Timmerer}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{A subjective evaluation using crowdsourcing of
+  Adaptive Media Playout utilizing audio-visual content features}. In
+  \bibinfo{booktitle}{{\em IEEE Network Operations and Management Symposium}}.
+  IEEE.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Schweiger~et al.}{Schweiger~et al.}{2013}]%
+        {schweiger2013fully}
+\bibfield{author}{\bibinfo{person}{Florian Schweiger~et al.}}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Fully automatic and frame-accurate video
+  synchronization using bitrate sequences}.
+\newblock \bibinfo{journal}{{\em IEEE Transactions on Multimedia\/}}
+  (\bibinfo{year}{2013}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Segundo and Santos}{Segundo and
+  Santos}{2015}]%
+        {segundo2015remote}
+\bibfield{author}{\bibinfo{person}{Ricardo Segundo} {and}
+  \bibinfo{person}{Celso Santos}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Remote Temporal Couplers for Multiple Content
+  Synchronization}. In \bibinfo{booktitle}{{\em IEEE ICCIT}}. IEEE.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Steiner, Verborgh, Van~de Walle, Hausenblas,
+  and Vall{\'e}s}{Steiner et~al\mbox{.}}{2011}]%
+        {steiner2011crowdsourcing}
+\bibfield{author}{\bibinfo{person}{Thomas Steiner}, \bibinfo{person}{Ruben
+  Verborgh}, \bibinfo{person}{Rik Van~de Walle}, \bibinfo{person}{Michael
+  Hausenblas}, {and} \bibinfo{person}{Joaquim~Gabarr{\'o} Vall{\'e}s}.}
+  \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Crowdsourcing event detection in YouTube video}. In
+  \bibinfo{booktitle}{{\em 10th International Semantic Web Conference (ISWC
+  2011); 1st Workshop on Detection, Representation, and Exploitation of Events
+  in the Semantic Web}}. \bibinfo{pages}{58--67}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Su, Naaman, Gurjar, Patel, and Ellis}{Su
+  et~al\mbox{.}}{2012}]%
+        {su2012making}
+\bibfield{author}{\bibinfo{person}{Kai Su}, \bibinfo{person}{Mor Naaman},
+  \bibinfo{person}{Avadhut Gurjar}, \bibinfo{person}{Mohsin Patel}, {and}
+  \bibinfo{person}{Daniel~PW Ellis}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Making a scene: alignment of complete sets of clips
+  based on pairwise audio match}. In \bibinfo{booktitle}{{\em ACM International
+  Conference on Multimedia Retrieval}}. ACM.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Vondrick, Patterson, and Ramanan}{Vondrick
+  et~al\mbox{.}}{2013}]%
+        {vondrick2013efficiently}
+\bibfield{author}{\bibinfo{person}{Carl Vondrick}, \bibinfo{person}{Donald
+  Patterson}, {and} \bibinfo{person}{Deva Ramanan}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Efficiently scaling up crowdsourced video
+  annotation}.
+\newblock \bibinfo{journal}{{\em International Journal of Computer Vision\/}}
+  (\bibinfo{year}{2013}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Wang~et al.}{Wang~et al.}{2014}]%
+        {wang2014videosnapping}
+\bibfield{author}{\bibinfo{person}{Oliver Wang~et al.}}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Videosnapping: Interactive synchronization of
+  multiple videos}.
+\newblock \bibinfo{journal}{{\em ACM Transactions on Graphics\/}}
+  (\bibinfo{year}{2014}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Wu, Thawonmas, and Chen}{Wu
+  et~al\mbox{.}}{2011}]%
+        {wu2011video}
+\bibfield{author}{\bibinfo{person}{Shao-Yu Wu}, \bibinfo{person}{Ruck
+  Thawonmas}, {and} \bibinfo{person}{Kuan-Ta Chen}.}
+  \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Video summarization via crowdsourcing}. In
+  \bibinfo{booktitle}{{\em CHI'11 Extended Abstracts on Human Factors in
+  Computing Systems}}. ACM, \bibinfo{pages}{1531--1536}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Yu, Shen, Miao, and An}{Yu
+  et~al\mbox{.}}{2012}]%
+        {yu2012challenges}
+\bibfield{author}{\bibinfo{person}{Han Yu}, \bibinfo{person}{Zhiqi Shen},
+  \bibinfo{person}{Chunyan Miao}, {and} \bibinfo{person}{Bo An}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Challenges and opportunities for trust management
+  in crowdsourcing}. In \bibinfo{booktitle}{{\em IEEE/WIC/ACM WI-IAT}}. IEEE
+  Computer Society.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Yu~et al.}{Yu~et al.}{2008}]%
+        {yu2008understanding}
+\bibfield{author}{\bibinfo{person}{Jin Yu~et al.}}
+  \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{Understanding mashup development}.
+\newblock \bibinfo{journal}{{\em Internet Computing, IEEE\/}}
+  (\bibinfo{year}{2008}).
+\newblock
+
+
+\end{thebibliography}
