@@ -1,0 +1,21 @@
+The first feature (and original purpose) of the DAL is the Time Offset Management. It is responsible for dealing with all aspects of the time offset relation among videos. These aspects are:
+
+	\textbf{$\Delta$ Storage and Retrieval:} a characteristic of the DAL is to allow the addition, update and retrieval of any Time Offset for any pair of videos. This gave us the starting point of using a Matrix like structure that permits fast access to any cell of the matrix  from a pair of coordinates. This way knowing the two videos which we desire to know or to update the $\Delta$, we can quickly obtain this information. However we don't use a pure matrix for two main reasons: information redundancy, we don't need to store the AB and BA relations, as one is the opposite of the other ($\Delta_{i,j} = -\Delta_{j,i}$, eq.~\ref{eq-oposite}); and a matrix doesn't allow the storage of multiple contributions in the same cell (requisite for the crowdsourcing);
+\begin{eqnarray}
+	\label{eq-oposite}
+	\Delta_{i,j} = b.i - b.j	\nonumber \\
+	\Delta_{j,i} = b.j - b.i	\nonumber \\
+	-\Delta_{j,i} = b.i + b.j	\nonumber \\
+	\Delta_{i,j} = -\Delta_{j,i}
+\end{eqnarray}
+
+	\textbf{$\Delta$ Inference:} known relations in the DAL allows developing inference methods that use transitivity through pairs of aligned videos to calculate relations between videos,in which the offset is still unknown. If we know the relation AB and AC from the structure we can infer BC.	
+\begin{eqnarray}
+	\label{dina-i}
+	\Delta_{B,C} = b.B - b.C	\nonumber \\
+	\Delta_{B,A} = b.B - b.A \rightarrow b.B = \Delta_{B,A} + b.A	\nonumber \\
+	\Delta_{A,C} = b.A - b.C \rightarrow b.A = \Delta_{A,C} + b.C	\nonumber \\
+	\Delta_{B,C}= \Delta_{B,A} + b.A - (b.A-\Delta_{A,C}) \rightarrow \nonumber \\ \Delta_{B,C} = \Delta_{B,A} + \Delta_{A,C}	
+\end{eqnarray}
+
+	\textbf{Presentation Generation:} With the known and inferred time offsets, it is possible to create a presentation of the event that correlates all videos with temporal relations. This presentation can be the maximal one, where the event is presented using the first video until the end of the last one, also when videos with overlapping exists, the option to change camera is made available to users.

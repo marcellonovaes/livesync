@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: template.aux
+The style file: jidm.bst
+Database file #1: jidmb.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--no journal in delivesync
+Warning--no number and no volume in delivesync
+Warning--empty year in delivesync
+Warning--empty address in segundo2015remote
+Warning--can't use both volume and number fields in su2012making
+Warning--empty publisher in su2012making
+Warning--empty address in su2012making
+Warning--no number and no volume in yu2008understanding
+You've used 8 entries,
+            3054 wiz_defined-function locations,
+            893 strings with 10971 characters,
+and the built_in function-call counts, 5442 in all, are:
+= -- 466
+> -- 390
+< -- 3
++ -- 116
+- -- 138
+* -- 461
+:= -- 998
+add.period$ -- 33
+call.type$ -- 8
+change.case$ -- 55
+chr.to.int$ -- 8
+cite$ -- 16
+duplicate$ -- 161
+empty$ -- 323
+format.name$ -- 150
+if$ -- 1017
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 9
+newline$ -- 41
+num.names$ -- 80
+pop$ -- 52
+preamble$ -- 1
+purify$ -- 103
+quote$ -- 0
+skip$ -- 165
+stack$ -- 0
+substring$ -- 233
+swap$ -- 55
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 160
+warning$ -- 8
+while$ -- 81
+width$ -- 0
+write$ -- 107
+(There were 8 warnings)

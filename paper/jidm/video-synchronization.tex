@@ -1,0 +1,9 @@
+Multimedia synchronization is about providing coherent playout of orchestrated contents. In a broader view, coherence in a playout addresses temporal, spatial, semantic and sensorial constraints related to the combined content presentation, although our work focus only on the temporal issue.
+
+To synchronize the video streams we use an synchronization technique presented in \cite{segundo2015remote}: the Remote Temporal Couplers for aligning videos. The technique solves the problem where each user is independent from the others, synchronizing contents content in his environment and the sources are also independent, such as is our case: we have multiple streams coming from video servers that don't share any information, and clients (the crowd) that receives and synchronize these contents.
+
+For each video that need synchronization (we suppose that the videos have relations, so we don't focus on how to group these videos) we create a coupler that aligns each pair of videos. Each contribution from one user generates a coupler. When a common user access two videos (A and B), if there is a generated coupler for these videos, the videos are immediately synchronized, else the person that create the coupler himself.
+
+Other characteristic of this technique is that we can imply unknown couplers from known ones. If we know the synchronization of Video A with B, and we also know B with C, we can imply the synchronization point of A and C.
+
+At this point, a question arises: what happens if the presentation of one video is delayed (stopped to buffer) after it started being presented? Wouldn’t the timeline be misaligned? Yes, it would, and all synchronization would be lost. There are two solutions for such problem: (i) resynchronize based on the time of the coupler; (ii) apply the same delay on the other video.

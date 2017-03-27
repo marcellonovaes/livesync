@@ -1,5 +1,0 @@
-[0] Config.pm:324> INFO - This is Biber 2.1
-[0] Config.pm:327> INFO - Logfile is 'jidmb.blg'
-[82] biber-darwin:276> INFO - === Wed Mar 22, 2017, 10:32:59
-[239] Utils.pm:162> ERROR - Cannot find control file 'jidmb.bcf'! - did you pass the "backend=biber" option to BibLaTeX?
-[240] Biber.pm:110> INFO - ERRORS: 1

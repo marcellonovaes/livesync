@@ -1,0 +1,47 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{Howe}{Howe}{2006}]{howe2006rise}
+{\sc Howe, J.}
+\newblock The rise of crowdsourcing.
+\newblock {\em Wired magazine\/}~14~(6): 1--4, 2006.
+
+\bibitem[\protect\citeauthoryear{Roberts}{Roberts}{2016}]{RobertServerless}
+{\sc Roberts, M.}
+\newblock Serverless architectures, 2016.
+
+\bibitem[\protect\citeauthoryear{Schweiger et~al\mbox{.}}{Schweiger
+  et~al\mbox{.}}{2013}]{schweiger2013fully}
+{\sc Schweiger, F.} {\sc et~al\mbox{.}}
+\newblock Fully automatic and frame-accurate video synchronization using
+  bitrate sequences.
+\newblock {\em Multimedia, IEEE Transactions on\/}~15~(1): 1--14, 2013.
+
+\bibitem[\protect\citeauthoryear{Segundo and Santos}{Segundo and
+  Santos}{2015}]{segundo2015remote}
+{\sc Segundo, R.} {\sc and} {\sc Santos, C.}
+\newblock Remote temporal couplers for multiple content synchronization.
+\newblock In {\em Computer and Information Technology, 2015 IEEE International
+  Conference on}. IEEE, pp.\  532--539, 2015.
+
+\bibitem[\protect\citeauthoryear{Su, Naaman, Gurjar, Patel, and Ellis}{Su
+  et~al\mbox{.}}{2012}]{su2012making}
+{\sc Su, K.}, {\sc Naaman, M.}, {\sc Gurjar, A.}, {\sc Patel, M.}, {\sc and}
+  {\sc Ellis, D.~P.}
+\newblock Making a scene: alignment of complete sets of clips based on pairwise
+  audio match.
+\newblock In {\em Proceedings of the 2nd ACM International Conference on
+  Multimedia Retrieval}. ACM, pp.\ ~26, 2012.
+
+\bibitem[\protect\citeauthoryear{Wang et~al\mbox{.}}{Wang
+  et~al\mbox{.}}{2014}]{wang2014videosnapping}
+{\sc Wang, O.} {\sc et~al\mbox{.}}
+\newblock Videosnapping: Interactive synchronization of multiple videos.
+\newblock {\em ACM Transactions on Graphics (TOG)\/}~33~(4): 77, 2014.
+
+\bibitem[\protect\citeauthoryear{Yu~et al.}{Yu~et
+  al.}{2008}]{yu2008understanding}
+{\sc Yu~et al., J.}
+\newblock Understanding mashup development.
+\newblock {\em Internet Computing, IEEE\/}, 2008.
+
+\end{thebibliography}
