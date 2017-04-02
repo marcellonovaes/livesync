@@ -1,0 +1,32 @@
+Definição da sigla UGV
+
+Definição de Server e Coupler
+
+Outras definições antes da arquitetura
+
+Mudar a estrutura:
+
+(1) Introdução - mostrando que o trabalho está no "estado-da-arte" e em área de interesse da revista.
+
+(2) Qual o problema atacado e o porquê dele não ter sido resolvido até o momento
+
+* Começar com o problema (LiveSync) e porque os métodos automáticos teriam problemas
+
+(3) Apresentação da solução proposta - métodos/técnicas/processos usados, arquitetura,
+componentes, fluxo de informações, resultados gerados
+
+* Mostrar porque os métodos automáticos teriam problemas com isso e que a solução via crowd é viável nesse momento
+ 
+* Mostra-se a solução proposta por Ricardo em 2015 (Remote Couplers), com descrição dela e da arquitetura.
+
+
+(4) Estudos de caso e/ou avaliações da solução, comparando com outras existentes
+
+* Faz-se então uma instância da solução para sincronizar vídeos em crowdsourcing. 
+
+* Explicando-se como as contribuições são armazenadas no Remote Coupler, fala-se da DAL, etc, etc.
+
+* Terminar com os estudos de caso: (1) o que já foi publicado e filmado e (2) uma simulação.
+
+(5) Conclusão, limitações, trabalhos futuros.
+

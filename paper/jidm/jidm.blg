@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: jidm.aux
+The style file: jidm.bst
+Database file #1: jidm.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--no journal in delivesync
+Warning--no number and no volume in delivesync
+Warning--empty year in delivesync
+Warning--empty publisher in KarpathyCVPR14
+Warning--empty address in KarpathyCVPR14
+Warning--empty publisher in 6909619
+Warning--empty address in 6909619
+Warning--empty address in segundo2015remote
+Warning--empty school in VonAhn:2005:HC:1168246
+You've used 12 entries,
+            3054 wiz_defined-function locations,
+            922 strings with 11953 characters,
+and the built_in function-call counts, 9101 in all, are:
+= -- 771
+> -- 681
+< -- 4
++ -- 211
+- -- 232
+* -- 818
+:= -- 1629
+add.period$ -- 54
+call.type$ -- 12
+change.case$ -- 90
+chr.to.int$ -- 11
+cite$ -- 21
+duplicate$ -- 275
+empty$ -- 535
+format.name$ -- 255
+if$ -- 1739
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 15
+newline$ -- 63
+num.names$ -- 118
+pop$ -- 91
+preamble$ -- 1
+purify$ -- 161
+quote$ -- 0
+skip$ -- 265
+stack$ -- 0
+substring$ -- 417
+swap$ -- 95
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 236
+warning$ -- 9
+while$ -- 116
+width$ -- 0
+write$ -- 170
+(There were 9 warnings)

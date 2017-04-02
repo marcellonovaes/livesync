@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.31)  23 MAR 2017 16:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.31)  27 MAR 2017 10:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -191,7 +191,7 @@ Underfull \vbox (badness 4403) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `@lastpg' on page 1 undefined on input line 108.
+LaTeX Warning: Reference `@lastpg' on page 1 undefined on input line 109.
 
 [1
 
@@ -199,25 +199,25 @@ LaTeX Warning: Reference `@lastpg' on page 1 undefined on input line 108.
 <figure/dal/dal.png, id=17, 331.2375pt x 180.675pt>
 File: figure/dal/dal.png Graphic file (type png)
  <use figure/dal/dal.png>
-Package pdftex.def Info: figure/dal/dal.png used on input line 119.
+Package pdftex.def Info: figure/dal/dal.png used on input line 120.
 (pdftex.def)             Requested size: 264.99034pt x 144.54018pt.
 
 Underfull \vbox (badness 4531) has occurred while \output is active []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 129.
- [2 <./figure/dal/dal.png>] [3]
+(Font)              <14.4> on input line 132.
+ [2 <./figure/dal/dal.png>]
+Underfull \vbox (badness 6157) has occurred while \output is active []
+
+ [3]
 <figure/arqchitecture.png, id=31, 328.97906pt x 344.78813pt>
 File: figure/arqchitecture.png Graphic file (type png)
 
 <use figure/arqchitecture.png>
-Package pdftex.def Info: figure/arqchitecture.png used on input line 171.
+Package pdftex.def Info: figure/arqchitecture.png used on input line 174.
 (pdftex.def)             Requested size: 131.5893pt x 137.9128pt.
-
-Underfull \vbox (badness 2790) has occurred while \output is active []
-
  [4]
-Overfull \hbox (25.51335pt too wide) in paragraph at lines 181--182
+Overfull \hbox (25.51335pt too wide) in paragraph at lines 184--185
 []\T1/cmr/m/n/10 At this time, LiveSync sup-ports two video stream plat-forms: 
 the YouTube Live (https://goo.gl/DEM9eW)
  []
@@ -226,7 +226,7 @@ the YouTube Live (https://goo.gl/DEM9eW)
 <figure/screen.png, id=41, 1444.39626pt x 617.30624pt>
 File: figure/screen.png Graphic file (type png)
  <use figure/screen.png>
-Package pdftex.def Info: figure/screen.png used on input line 204.
+Package pdftex.def Info: figure/screen.png used on input line 207.
 (pdftex.def)             Requested size: 433.32222pt x 185.1933pt.
 
 [6] (./template.bbl [7 <./figure/screen.png>]) [8] (./template.aux)
@@ -264,7 +264,7 @@ st/fonts/type1/public/cm-super/sfss1000.pfb></usr/local/texlive/2015/texmf-dist
 /fonts/type1/public/cm-super/sfti0800.pfb></usr/local/texlive/2015/texmf-dist/f
 onts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2015/texmf-dist/fon
 ts/type1/public/cm-super/sftt0900.pfb>
-Output written on template.pdf (8 pages, 1169672 bytes).
+Output written on template.pdf (8 pages, 1169690 bytes).
 PDF statistics:
  123 PDF objects out of 1000 (max. 8388607)
  85 compressed objects within 1 object stream

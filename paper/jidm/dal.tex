@@ -1,16 +1,43 @@
-To synchronize the video streams we use an synchronization technique presented in \cite{segundo2015remote}: the Remote Temporal Couplers for aligning videos. It allows us to synchronize independent videos from multiple sources and to infer unknown relations from videos. We implemented the technique under our Dynamic Alignment List structure.
 
-A DAL derivates from a matrix m x n, with m and n natural numbers, where m=n is the quantity of videos that can be synchronized at that moment. Each position of the matrix represents the relation of two videos (the coupler), in other words, the value necessary to align them, in our synchronization scenario. This value is calculated using: $\Delta_{i,j}=begin(id_{i,0})-begin(id_{0,j}), para 0<i,j\neq m $, where begin(x) is the time where an asset X begins its presentation. A $\Delta_{i,j} > 0$, implies that the asset in the column starts $\Delta_{i,j}$ before the asset in the line. Case $\Delta_{i,j} < 0$, the opposite happens and case $Delta_{i,j} = 0$, both starts at the same time.
+To achieve video streaming synchronization was used the Remote Temporal Couplers (RTC) technique \cite{segundo2015remote} that allows to align videos from different sources. This technique collects synchronization points for pair of videos, and uses an inference algorithm to find out more relations between videos by transitivity over known relations.
 
-As previously said, the list is derived from a matrix, presenting different aspects. Firstly, it does not presents all cells of a matrix. In the matrix, $\Delta_{i,j}$ is equal to $\-Delta_{j,i}$, so we don't need to store both relations, and with that, only the superior part of the relations are stored. Secondly, each "cell" of the list, presents multiple properties to help in the management of the crowd contributions. As each relation can contain multiple contributions, we need to calculate a mean of these contributions  to set as the actual $\Delta$. Lastly, each relation has a new dimension: a list with all contributions for that relation, that identifies the value of the contribution and the user that made it (if we want to identify who made it).
 
-Figure~\ref{dal}, shows the representation of a DAL. There we have 5 assets (videos in our scope) labelled: A, B, C, D and E. Each asset represents a struct with the assets: URI, label, duration and a list of relations with the other assets. Following the asset A we find its relations with the other assets: AB, AC, AD and AE. We do not need to represent AA because $\Delta_{A,A}$ is always 0. Taking teh relations from B, we have: BC, BD and BE.  Again, $\Delta_{B,B} = 0$. Thus, we do not represent BA, because we previously represented AB, and as said before, we can find BA by negating AB ($\Delta_{A,B} = -\Delta_{A,B}$). And this will happens to the other relations.
 
-In the end of the DAL, we have the contributions for each asset (represented in the figure by a cloud due to figure dimensions). Each relation can receive multiple contributions, and are stored in the list. These contributions are processed (means) and generate the value of $\Delta$ for its relations. Fields such as confidence factor and number of contributions are used to know how robust those contributions are, and if its necessary more contributions to verify the synchronization.
+
+
+
+The RTC technique was operationally represented as the Dynamic Alignment List (DAL), an abstract type designed to organize the relations between videos as well provide the functionalists required to store and process the relations.
+
+The start model for the storage structure inside the DAL was a relational matrix MxM which can represent all possible relations between M videos, each position representing the $\Delta{time}$ between the initial point of a pair of videos. This matrix was reduced to a upper triangular matrix because $\forall{i,j} < M , \Delta_{i,j}$ = $- \Delta_{j,i}$ and the main diagonal was eliminated because $\Delta_{i,j}$ is always equal to zero. The $\Delta{time}$ for each couple of videos is calculated for $\Delta{i,j} = start(j) - start(i)$ where $start(X)$ returns the offset of video X from the start of the event's timeline.
+
+These values are used to synchronize the M videos. If $\Delta{i,j} > 0$ the video $i$ starts before the video $j$, if $\Delta{i,j} < 0$ the video $i$ starts after the video $j$, and when $\Delta{i,j} = 0$ both videos start at the same time. The values are represented in milliseconds, so $\Delta{i,j} = 30$ means the video $j$ should starts 30 ms after the video $i$ starts in order to achieve their synchronization. Additionally, in cases which is impossible to determine a relation between a pair of videos, the value registered is $I$ that means impossible.
+
+Into a collaborative scenario where users can contribute providing a $\Delta{i,j}$ for a pair of videos $(i,j)$, it is important to store all contributions, because the $\Delta{time}$ value should be calculated considering the contributions collected for that pair. In that approach the formula $\Delta{i,j} = start(j) - start(i)$  is used to calculate the $\Delta{time}$ for each contribution, and the value stored in DAL is determined processing all contributions for each pair. Moreover, the number of contributions for each pair can grow while the contribution process is active, and current $\Delta{time}$ of a pair can change while contributions are incoming.
+
+In order to represent this model it was needed to define a structure more sophisticated then a matrix. This structure preserves the relational characteristics of a upper triangular matrix without the main diagonal, with an additional dimension related to the contributions for each relation between video pairs. However, it is implemented as a hash table, using linked lists hierarchically organized in three levels. 
+
+\begin{itemize}
+
+\item Level 1 - The first level is a list of video structures. Each structure has a unique identification label for a correspondent video. 
+
+\item Level 2 - Each video structure points to a second level linked list composed by all possible relations that include its video, considering the relations in a upper triangular matrix without the main diagonal.  Thus, each node in a second level linked list corresponds to a relation between it's video represented in its root and another video.
+
+\item Level 3 - Each relation in a level 2 list points to a third level list, in which each node represent a contribution for that relation.
+
+\end{itemize}
+
+Figure~\ref{dal} exemplify a data structure into a DAL with 5 videos. The videos, labeled as $A, B, C, D$  and $E$, are in the fist level linked list. Each video points to a second level list, it is possible to observe in Figure~\ref{dal}  that each second level linked list have only the relations that would exist in a single line of a upper triangular matrix without the main diagonal. Moreover, in Figure~\ref{dal} each relation, that is an element of second level list, points to a cloud that represents a third level list with all contributions for that relation.
 
 \begin{figure}
 	\centering
 	\includegraphics[scale=0.8]{figures/dal}
-	\caption{DAL with 5 Assets (A,B,C,D,E)}
+	\caption{DAL with 5 Videos (A,B,C,D,E)}
 	\label{dal}
 \end{figure}
+
+A completed DAL can provide all information needed to achieve synchronization for videos registered on it, although it is more than a data structure. DAL is an abstract datatype that provides the data structure plus a set of features that allows access, manage and process the information inside it, such as the function \textit{Infer Synchronization}. 
+
+\textit{Infer Synchronization} can obtain additional relations by executing an inference algorithm over the current relations. This algorithm checks if is possible to find an indirect path between two videos by transitivity. For example, considering the videos $A, B$ and $C$, if the relations $AB$ and $BC$ are known, by transitivity is possible to infer the relation $AC$. This feature can reduce the number of contributions required to complete a DAL. 
+
+
+

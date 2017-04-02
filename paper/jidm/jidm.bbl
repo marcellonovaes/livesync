@@ -1,0 +1,83 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{de~Amorim, Segundo, and Santos}{de~Amorim
+  et~al\mbox{.}}{}]{delivesync}
+{\sc de~Amorim, M.~N.}, {\sc Segundo, R.~M.}, {\sc and} {\sc Santos, C.~A.}
+\newblock Livesync: a tool for real time video streaming synchronization from
+  independent sources.
+
+\bibitem[\protect\citeauthoryear{Difallah, Catasta, Demartini, Ipeirotis, and
+  Cudr{\'e}-Mauroux}{Difallah
+  et~al\mbox{.}}{2015}]{Difallah:2015:DMC:2736277.2741685}
+{\sc Difallah, D.~E.}, {\sc Catasta, M.}, {\sc Demartini, G.}, {\sc Ipeirotis,
+  P.~G.}, {\sc and} {\sc Cudr{\'e}-Mauroux, P.}
+\newblock The dynamics of micro-task crowdsourcing: The case of amazon mturk.
+\newblock In {\em Proceedings of the 24th International Conference on World
+  Wide Web}. WWW '15. ACM, New York, NY, USA, pp.\  238--247, 2015.
+
+\bibitem[\protect\citeauthoryear{Goswami, Gakhar, and Kaur}{Goswami
+  et~al\mbox{.}}{2014}]{key:article}
+{\sc Goswami, A.~K.}, {\sc Gakhar, S.}, {\sc and} {\sc Kaur, H.}
+\newblock Article: Automatic object recognition from satellite images using
+  artificial neural network.
+\newblock {\em International Journal of Computer Applications\/}~95~(10):
+  33--39, June, 2014.
+\newblock Full text available.
+
+\bibitem[\protect\citeauthoryear{Howe}{Howe}{2006}]{howe2006rise}
+{\sc Howe, J.}
+\newblock The rise of crowdsourcing.
+\newblock {\em Wired magazine\/}~14~(6): 1--4, 2006.
+
+\bibitem[\protect\citeauthoryear{Karpathy, Toderici, Shetty, Leung, Sukthankar,
+  and Fei-Fei}{Karpathy et~al\mbox{.}}{2014a}]{KarpathyCVPR14}
+{\sc Karpathy, A.}, {\sc Toderici, G.}, {\sc Shetty, S.}, {\sc Leung, T.}, {\sc
+  Sukthankar, R.}, {\sc and} {\sc Fei-Fei, L.}
+\newblock Large-scale video classification with convolutional neural networks.
+\newblock In {\em CVPR}, 2014a.
+
+\bibitem[\protect\citeauthoryear{Karpathy, Toderici, Shetty, Leung, Sukthankar,
+  and Fei-Fei}{Karpathy et~al\mbox{.}}{2014b}]{6909619}
+{\sc Karpathy, A.}, {\sc Toderici, G.}, {\sc Shetty, S.}, {\sc Leung, T.}, {\sc
+  Sukthankar, R.}, {\sc and} {\sc Fei-Fei, L.}
+\newblock Large-scale video classification with convolutional neural networks.
+\newblock In {\em 2014 IEEE Conference on Computer Vision and Pattern
+  Recognition}. pp.\  1725--1732, 2014b.
+
+\bibitem[\protect\citeauthoryear{Roberts}{Roberts}{2016}]{RobertServerless}
+{\sc Roberts, M.}
+\newblock Serverless architectures, 2016.
+
+\bibitem[\protect\citeauthoryear{Rohwer}{Rohwer}{2010}]{Rohwer:2010:NHC:1837885.1837897}
+{\sc Rohwer, P.}
+\newblock A note on human computation limits.
+\newblock In {\em Proceedings of the ACM SIGKDD Workshop on Human Computation}.
+  HCOMP '10. ACM, New York, NY, USA, pp.\  38--40, 2010.
+
+\bibitem[\protect\citeauthoryear{Schweiger et~al\mbox{.}}{Schweiger
+  et~al\mbox{.}}{2013}]{schweiger2013fully}
+{\sc Schweiger, F.} {\sc et~al\mbox{.}}
+\newblock Fully automatic and frame-accurate video synchronization using
+  bitrate sequences.
+\newblock {\em Multimedia, IEEE Transactions on\/}~15~(1): 1--14, 2013.
+
+\bibitem[\protect\citeauthoryear{Segundo and Santos}{Segundo and
+  Santos}{2015}]{segundo2015remote}
+{\sc Segundo, R.} {\sc and} {\sc Santos, C.}
+\newblock Remote temporal couplers for multiple content synchronization.
+\newblock In {\em Computer and Information Technology, 2015 IEEE International
+  Conference on}. IEEE, IEEE, pp.\  532--539, 2015.
+
+\bibitem[\protect\citeauthoryear{Von~Ahn}{Von~Ahn}{2005}]{VonAhn:2005:HC:1168246}
+{\sc Von~Ahn, L.}
+\newblock {\em Human Computation}.
+\newblock Ph.D. thesis, Pittsburgh, PA, USA, 2005.
+\newblock AAI3205378.
+
+\bibitem[\protect\citeauthoryear{Wang et~al\mbox{.}}{Wang
+  et~al\mbox{.}}{2014}]{wang2014videosnapping}
+{\sc Wang, O.} {\sc et~al\mbox{.}}
+\newblock Videosnapping: Interactive synchronization of multiple videos.
+\newblock {\em ACM Transactions on Graphics (TOG)\/}~33~(4): 77, 2014.
+
+\end{thebibliography}
