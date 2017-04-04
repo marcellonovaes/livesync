@@ -1,12 +1,6 @@
 
-To achieve video streaming synchronization was used the Remote Temporal Couplers (RTC) technique \cite{segundo2015remote} that allows to align videos from different sources. This technique collects synchronization points for pair of videos, and uses an inference algorithm to find out more relations between videos by transitivity over known relations.
+The Dynamic Alignment List (DAL) is an abstract datatype designed to organize the relations (relational couplers) between videos as well to provide the features required to store and process the relations. Each relation stored into a DAL instance corresponds to a relational coupler related with a pair of video streams and the $\Delta{time}$ between them.
 
-
-
-
-
-
-The RTC technique was operationally represented as the Dynamic Alignment List (DAL), an abstract type designed to organize the relations between videos as well provide the functionalists required to store and process the relations.
 
 The start model for the storage structure inside the DAL was a relational matrix MxM which can represent all possible relations between M videos, each position representing the $\Delta{time}$ between the initial point of a pair of videos. This matrix was reduced to a upper triangular matrix because $\forall{i,j} < M , \Delta_{i,j}$ = $- \Delta_{j,i}$ and the main diagonal was eliminated because $\Delta_{i,j}$ is always equal to zero. The $\Delta{time}$ for each couple of videos is calculated for $\Delta{i,j} = start(j) - start(i)$ where $start(X)$ returns the offset of video X from the start of the event's timeline.
 

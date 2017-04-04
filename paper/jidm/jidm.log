@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.31)  2 APR 2017 12:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.31)  4 APR 2017 14:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -408,23 +408,42 @@ File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 (./introduction.tex
 
-LaTeX Warning: Reference `@lastpg' on page 1 undefined on input line 11.
+LaTeX Warning: Reference `@lastpg' on page 1 undefined on input line 10.
 
 [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
-(./livesync.tex) (./livesync-tool.tex)
+(./livesync.tex)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 107.
- [2] (./dal.tex [3]
-<figures/dal.png, id=29, 331.2375pt x 180.675pt>
+(Font)              <14.4> on input line 105.
+ [2] (./livesync-tool.tex) (./rtc.tex
+Package epstopdf Info: Source file: <figures/rtc.eps>
+(epstopdf)                    date: 2017-04-03 15:26:17
+(epstopdf)                    size: 1720039 bytes
+(epstopdf)             Output file: <figures/rtc-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-04-03 15:30:42
+(epstopdf)                    size: 76319 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/rtc-eps-converted-
+to.pdf figures/rtc.eps>
+(epstopdf)             \includegraphics on input line 18.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/rtc-eps-converted-to.pdf, id=25, 809.0225pt x 351.3125pt>
+File: figures/rtc-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/rtc-eps-converted-to.pdf>
+Package pdftex.def Info: figures/rtc-eps-converted-to.pdf used on input line 18
+.
+(pdftex.def)             Requested size: 323.60327pt x 140.5225pt.
+ [3 <./figures/rtc-eps-converted-to.pdf>]) (./dal.tex [4] <figures/dal.png, id=
+36, 331.2375pt x 180.675pt>
 File: figures/dal.png Graphic file (type png)
- <use figures/dal.png>
-Package pdftex.def Info: figures/dal.png used on input line 33.
+
+<use figures/dal.png>
+Package pdftex.def Info: figures/dal.png used on input line 27.
 (pdftex.def)             Requested size: 264.99034pt x 144.54018pt.
-)
-(./livesync-main-funcionalities.tex [4 <./figures/dal.png>])
-(./livesync-architecture.tex
+) (./livesync-main-funcionalities.tex [5 <./figures/dal.png>]) (./livesync-arch
+itecture.tex
 Package epstopdf Info: Source file: <figures/architecture.eps>
 (epstopdf)                    date: 2016-08-15 13:15:01
 (epstopdf)                    size: 1333569 bytes
@@ -437,7 +456,7 @@ onverted-to.pdf figures/architecture.eps>
 (epstopdf)             \includegraphics on input line 4.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/architecture-eps-converted-to.pdf, id=35, 346.29375pt x 357.335pt>
+<figures/architecture-eps-converted-to.pdf, id=42, 346.29375pt x 357.335pt>
 File: figures/architecture-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/architecture-eps-converted-to.pdf>
@@ -445,9 +464,9 @@ Package pdftex.def Info: figures/architecture-eps-converted-to.pdf used on inpu
 t line 4.
 (pdftex.def)             Requested size: 207.77785pt x 214.40265pt.
 )
-(./livesync-content-providers.tex) [5 <./figures/architecture-eps-converted-to.
+(./livesync-content-providers.tex) [6 <./figures/architecture-eps-converted-to.
 pdf>] (./livesync-coupler.tex) (./livesync-mashup-player.tex
-<figures/menu_add_view.png, id=42, 1373.13pt x 217.81375pt>
+<figures/menu_add_view.png, id=49, 1373.13pt x 217.81375pt>
 File: figures/menu_add_view.png Graphic file (type png)
 
 <use figures/menu_add_view.png>
@@ -455,28 +474,28 @@ Package pdftex.def Info: figures/menu_add_view.png used on input line 7.
 (pdftex.def)             Requested size: 411.94218pt x 65.34462pt.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-[6] <figures/screen.png, id=46, 1444.39626pt x 617.30624pt>
+[7] <figures/screen.png, id=54, 1444.39626pt x 617.30624pt>
 File: figures/screen.png Graphic file (type png)
 
 <use figures/screen.png>
 Package pdftex.def Info: figures/screen.png used on input line 19.
 (pdftex.def)             Requested size: 433.32222pt x 185.1933pt.
-) (./experiment.tex) (./final-remarks.tex [7 <./figures/menu_add_view.png> <./f
-igures/screen.png>]) (./jidm.bbl) [8] (./jidm.aux)
+) (./experiment.tex) (./final-remarks.tex [8 <./figures/menu_add_view.png> <./f
+igures/screen.png>]) (./jidm.bbl) [9] (./jidm.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2341 strings out of 493089
- 31149 string characters out of 6134842
- 93545 words of memory out of 5000000
- 5732 multiletter control sequences out of 15000+600000
+ 2349 strings out of 493089
+ 31324 string characters out of 6134842
+ 93604 words of memory out of 5000000
+ 5737 multiletter control sequences out of 15000+600000
  17423 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,6n,23p,1164b,327s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,6n,23p,1177b,327s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
 /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></u
@@ -499,10 +518,10 @@ st/fonts/type1/public/cm-super/sfti0800.pfb></usr/local/texlive/2015/texmf-dist
 /fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2015/texmf-dist/f
 onts/type1/public/cm-super/sftt0900.pfb></usr/local/texlive/2015/texmf-dist/fon
 ts/type1/public/cm-super/sftt1000.pfb>
-Output written on jidm.pdf (8 pages, 1209653 bytes).
+Output written on jidm.pdf (9 pages, 1286669 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
- 87 compressed objects within 1 object stream
+ 134 PDF objects out of 1000 (max. 8388607)
+ 91 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
