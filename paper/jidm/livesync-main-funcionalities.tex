@@ -7,11 +7,11 @@ The main functionalities provided by the LiveSync Tool are:
 	
 	%\item[Infer Synchronization -] Additional relations can be obtained executing an inference algorithm over the already converged relations. This algorithm check if is possible to find a indirect path between two videos by transitivity. For example, considering the videos $A, B$ and $C$, if the relations $AB$ and $BC$ are known, by transitivity is possible to infer the relation $AC$.
 		
-	\item[Video Aggregation -]	Although the focus of the LiveSync Tool is UGV live streams synchronization, it must to allow users to add new stream sources to the application. He only needs to set the video source, and the video will be added to the DAL and list of videos. However, videos added are not filtered, this means that the user can add any video to the application, even ones that contains none relation with the other videos. In future versions will be added an functionality to users mark which video as not related, and then remove them.
+	\item[Video Aggregation -]	Although the focus of the LiveSync Tool is UGV live streams synchronization, it must allow users to add new stream sources to the application. Users only need to set the video source, and the video will be added to the DAL and list of videos. However, videos added are not filtered, this means that the user can add any video to the application, even ones that contains none relation with the other videos. In future versions will be added an functionality to users mark which video as not related, and then remove them.
 	
 	\item[Multiple Platforms Support -] One key-point on this tool is to use other platforms as video sources. The videos presented to users, and synchronize by them, are provided by external live video stream platforms. To be compatible with LiveSync Tool are required two requisites:
 	\begin{enumerate}
-		\item Remote Player: the platform must allows embeddability into player on third pages, allowing us to control the player with its basic functionalities such as: play, pause and stop;
+		\item Remote Player: the platform must allow embeddability into player on third pages, allowing us to control the player with its basic functionalities such as: play, pause and stop;
 		\item Uptime Support: a second and fundamental requisite is an API that allows video uptime retrievement. Video uptime is the time since the beginning of the video that is presented on the video player. This is fundamental to create and replicate the temporal couplers used to play the synchronized video streams.
 	\end{enumerate}
 	

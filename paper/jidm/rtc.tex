@@ -1,6 +1,6 @@
-LiveSync is based on the previous technique Remote Temporal Couplers (RTC) \cite{segundo2015remote} that intents to synchronize multiple contents related to the same main-content (MC). These contents may come from different Content Suppliers (CS), and range from video objects to extra content (EC), such as subtitles, additional information boards, labels, audio objects, or any other media artifacts that can me aligned over the same timeline.
+LiveSync is based on the previous technique Remote Temporal Couplers \cite{segundo2015remote} that intents to synchronize multiple contents related to the same main-content (MC). These contents may come from different Content Suppliers (CS), and range from video objects to extra content (EC), such as subtitles, additional information boards, labels, audio objects, or any other media artifacts that can me aligned over the same timeline.
 
-RTC is based on three components: Main Content Provider, Content Suppliers, and User Devices (UD). Figure~\ref{rtc} \cite{segundo2015remote} shows the communication between these three components.
+Remote Temporal Couplers is based on three components: Main Content Provider, Content Suppliers, and User Devices (UD). Figure~\ref{rtc} \cite{segundo2015remote} shows the communication between these three components.
 
 \begin{itemize}
 
@@ -16,15 +16,15 @@ RTC is based on three components: Main Content Provider, Content Suppliers, and 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[scale=0.4]{figures/rtc}
-	\caption{RTF - Entities Composition for Content Synchronization}
+	\caption{Remote Temporal Couplers - Entities Composition for Content Synchronization}
 	\label{rtc}
 \end{figure}
 
-RTC consider that MC Providers usually offers no explicit timing information in its content to support the synchronization. Although, CS can provide synchronized content without depending on a explicit time specification sent by the MC Provider. The way found for reach synchronization into this scenario is delegate to CS the responsibility  for generate temporal couplers. A temporal coupler is an structure that relates a scene to the local timestamp, associated with it on a CS. In other words, for each scene $Sx$ presented by a CS, it provides a temporal coupler \textit{[Sx, Timestamp]} that identifies the local time when the scene occurred in its local timeline.
+Remote Temporal Couplers consider that MC Providers usually offers no explicit timing information in its content to support the synchronization. Although, CS can provide synchronized content without depending on a explicit time specification sent by the MC Provider. The way found for reach synchronization into this scenario is delegate to CS the responsibility  for generate temporal couplers. A temporal coupler is an structure that relates a scene to the local timestamp, associated with it on a CS. In other words, for each scene $Sx$ presented by a CS, it provides a temporal coupler \textit{[Sx, Timestamp]} that identifies the local time when the scene occurred in its local timeline.
 
-Finally, the RTC technique uses the timestamp into each temporal coupler to synchronize the contents from multiple Content Suppliers, as well to compose a coherent presentation in a mash-up application, in which users can choose what contents should be included.
+Finally, the Remote Temporal Couplers technique uses the timestamp into each temporal coupler to synchronize the contents from multiple Content Suppliers, as well to compose a coherent presentation in a mash-up application, in which users can choose what contents should be included.
 
-Although LiveSync approach to synchronize video streams is based on RTC, it uses relational couplers, instead the temporal couplers used by RTC. A relational coupler relates pairs of videos and the $\Delta{time}$ between them. In this approach, alignment is constructed by relating a set of video streams, pair to pair, to generate coverage on the event timeline, rather than taking on a main-stream and to align each other stream with it. Moreover temporal couplers still are used in LiveSync to correctly play the synchronized streams.
+Although LiveSync approach to synchronize video streams is based on Remote Temporal Couplers, it uses relational couplers, instead the temporal couplers used by Remote Temporal Couplers. A relational coupler relates pairs of videos and the $\Delta{time}$ between them. In this approach, alignment is constructed by relating a set of video streams, pair to pair, to generate coverage on the event timeline, rather than taking on a main-stream and to align each other stream with it. Moreover temporal couplers still are used in LiveSync to correctly play the synchronized streams.
 
 
 
